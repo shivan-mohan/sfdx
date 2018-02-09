@@ -17,28 +17,28 @@
     [
         "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main",
         {
-            "state": "u",
             "sourcePath": "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 128,
             "modifiedTime": 1518176896634,
             "changeTime": 1518176896634,
-            "isWorkspace": false,
-            "contentHash": "ae41ed56706e4439a34cda97ac997d7988935c2f"
+            "contentHash": "ae41ed56706e4439a34cda97ac997d7988935c2f",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
         }
     ],
     [
         "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default",
         {
-            "state": "u",
             "sourcePath": "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 416,
             "modifiedTime": 1518186166545,
             "changeTime": 1518186166545,
-            "contentHash": "d45dc7f741b972b18300c46f9ebfb901fb148123"
+            "contentHash": "d45dc7f741b972b18300c46f9ebfb901fb148123",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
@@ -2853,11 +2853,11 @@
             "sourcePath": "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/classes/PackageTests.cls",
             "isDirectory": false,
             "isMetadataFile": false,
-            "size": 4709,
-            "modifiedTime": 1518185016126,
-            "changeTime": 1518185185404,
+            "size": 3158,
+            "modifiedTime": 1518196772284,
+            "changeTime": 1518196772284,
             "isWorkspace": false,
-            "contentHash": "c137ce17c3b4c5a1fdfaf7bc760d3b5ade036e42"
+            "contentHash": "923ed7f1c6bd13f5d273a8c900a88b63e2aeb332"
         }
     ],
     [
@@ -3538,15 +3538,15 @@
     [
         "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/objects",
         {
-            "state": "u",
             "sourcePath": "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/objects",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 544,
             "modifiedTime": 1518185973481,
             "changeTime": 1518185973481,
-            "isWorkspace": false,
-            "contentHash": "9bde2dd7ab3112f2a0fe60e9a7e0415a5cab3332"
+            "contentHash": "9bde2dd7ab3112f2a0fe60e9a7e0415a5cab3332",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
         }
     ],
     [
@@ -5742,16 +5742,15 @@
     [
         "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge",
         {
+            "state": "u",
             "sourcePath": "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge",
             "isDirectory": true,
-            "size": 288,
-            "modifiedTime": 1518177402938,
-            "changeTime": 1518173214286,
-            "contentHash": "04e7b67721d67e06f2373086b20b5c1d4727fe92",
             "isMetadataFile": false,
-            "state": "u",
+            "size": 352,
+            "modifiedTime": 1518196429433,
+            "changeTime": 1518196429433,
             "isWorkspace": true,
-            "isArtifactRoot": false
+            "contentHash": "adf66374e6b735d0f4004ceac2058b1343166d01"
         }
     ],
     [
@@ -5809,14 +5808,14 @@
     [
         "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/staticresources",
         {
-            "state": "u",
             "sourcePath": "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/staticresources",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 608,
             "modifiedTime": 1518186130317,
             "changeTime": 1518186130317,
-            "contentHash": "1ee0a9e48d609cda07c53767d68026db9e6c7260"
+            "contentHash": "1ee0a9e48d609cda07c53767d68026db9e6c7260",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
@@ -5835,1080 +5834,1080 @@
     [
         "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/applications",
         {
-            "state": "u",
             "sourcePath": "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/applications",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 96,
             "modifiedTime": 1518184107440,
             "changeTime": 1518186166568,
-            "contentHash": "5439d7bcd7f9f010a95a8d8ce407951fa02aaf15"
+            "contentHash": "5439d7bcd7f9f010a95a8d8ce407951fa02aaf15",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/layouts",
         {
-            "state": "u",
             "sourcePath": "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/layouts",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 320,
             "modifiedTime": 1518186143512,
             "changeTime": 1518186143512,
-            "contentHash": "ba681b49f40677d27bf9aebdfa54c2ca923beabd"
+            "contentHash": "ba681b49f40677d27bf9aebdfa54c2ca923beabd",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/tabs",
         {
-            "state": "u",
             "sourcePath": "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/tabs",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 160,
             "modifiedTime": 1518186150789,
             "changeTime": 1518186150789,
-            "contentHash": "b3990e4e97ce8c9436c2a3b3f0a1813aafa238a7"
+            "contentHash": "b3990e4e97ce8c9436c2a3b3f0a1813aafa238a7",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/objects/Case",
         {
-            "state": "u",
             "sourcePath": "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/objects/Case",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 96,
             "modifiedTime": 1518177449573,
             "changeTime": 1518185984267,
-            "contentHash": "70f132fe13e692866a539996a6b9a05b46076a07"
+            "contentHash": "70f132fe13e692866a539996a6b9a05b46076a07",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/objects/Case/fields",
         {
-            "state": "u",
             "sourcePath": "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/objects/Case/fields",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 192,
             "modifiedTime": 1518177449576,
             "changeTime": 1518185984267,
-            "contentHash": "e4b62bc1a1f27e8dea5044be3ed259ec79aa174d"
+            "contentHash": "e4b62bc1a1f27e8dea5044be3ed259ec79aa174d",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/objects/Product2",
         {
-            "state": "u",
             "sourcePath": "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/objects/Product2",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 96,
             "modifiedTime": 1518177449580,
             "changeTime": 1518185984282,
-            "contentHash": "70f132fe13e692866a539996a6b9a05b46076a07"
+            "contentHash": "70f132fe13e692866a539996a6b9a05b46076a07",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/objects/Product2/fields",
         {
-            "state": "u",
             "sourcePath": "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/objects/Product2/fields",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 352,
             "modifiedTime": 1518186206337,
             "changeTime": 1518186206337,
-            "contentHash": "3d9e6001862483ace02f59459ce3191ff4e9f740"
+            "contentHash": "3d9e6001862483ace02f59459ce3191ff4e9f740",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/staticresources/Houseboats",
         {
-            "state": "u",
             "sourcePath": "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/staticresources/Houseboats",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 256,
             "modifiedTime": 1518182232534,
             "changeTime": 1518186117838,
-            "contentHash": "0d4a9031f9c11814e8a71ed0dd46ebd249bc79d5"
+            "contentHash": "0d4a9031f9c11814e8a71ed0dd46ebd249bc79d5",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/staticresources/Houseboats/__MACOSX",
         {
-            "state": "u",
             "sourcePath": "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/staticresources/Houseboats/__MACOSX",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 64,
             "modifiedTime": 1518182232373,
             "changeTime": 1518186117835,
-            "contentHash": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+            "contentHash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/staticresources/Leaflet",
         {
-            "state": "u",
             "sourcePath": "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/staticresources/Leaflet",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 288,
             "modifiedTime": 1518182232689,
             "changeTime": 1518186130272,
-            "contentHash": "65df0400b0a3e29e539d2eb68a9b6274e4e9a6ce"
+            "contentHash": "65df0400b0a3e29e539d2eb68a9b6274e4e9a6ce",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/staticresources/Leaflet/__MACOSX",
         {
-            "state": "u",
             "sourcePath": "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/staticresources/Leaflet/__MACOSX",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 96,
             "modifiedTime": 1518182232628,
             "changeTime": 1518186130264,
-            "contentHash": "19f49d852660fe0a079cbf95c3efb34ba88de911"
+            "contentHash": "19f49d852660fe0a079cbf95c3efb34ba88de911",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/staticresources/Leaflet/__MACOSX/images",
         {
-            "state": "u",
             "sourcePath": "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/staticresources/Leaflet/__MACOSX/images",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 64,
             "modifiedTime": 1518182232633,
             "changeTime": 1518186130263,
-            "contentHash": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+            "contentHash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/staticresources/Leaflet/images",
         {
-            "state": "u",
             "sourcePath": "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/staticresources/Leaflet/images",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 224,
             "modifiedTime": 1518182232645,
             "changeTime": 1518186130262,
-            "contentHash": "504aa9d4037501ec4d0edf632f7af41532b43659"
+            "contentHash": "504aa9d4037501ec4d0edf632f7af41532b43659",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/staticresources/PleasureBoats",
         {
-            "state": "u",
             "sourcePath": "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/staticresources/PleasureBoats",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 192,
             "modifiedTime": 1518182233218,
             "changeTime": 1518186130292,
-            "contentHash": "5b0067fbaa6fe407acb1151f754d003fee29b5b0"
+            "contentHash": "5b0067fbaa6fe407acb1151f754d003fee29b5b0",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/staticresources/PleasureBoats/__MACOSX",
         {
-            "state": "u",
             "sourcePath": "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/staticresources/PleasureBoats/__MACOSX",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 64,
             "modifiedTime": 1518182232911,
             "changeTime": 1518186130284,
-            "contentHash": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+            "contentHash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/staticresources/Sailboats",
         {
-            "state": "u",
             "sourcePath": "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/staticresources/Sailboats",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 320,
             "modifiedTime": 1518182233993,
             "changeTime": 1518186130313,
-            "contentHash": "1e7fc1136dd80e285fca85d7e4ec57d82605a989"
+            "contentHash": "1e7fc1136dd80e285fca85d7e4ec57d82605a989",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/staticresources/Sailboats/__MACOSX",
         {
-            "state": "u",
             "sourcePath": "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/staticresources/Sailboats/__MACOSX",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 64,
             "modifiedTime": 1518182233557,
             "changeTime": 1518186130306,
-            "contentHash": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+            "contentHash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/staticresources/boats",
         {
-            "state": "u",
             "sourcePath": "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/staticresources/boats",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 192,
             "modifiedTime": 1518182234140,
             "changeTime": 1518186117804,
-            "contentHash": "5484a60958f1b05d3f47138b371d04534be8fada"
+            "contentHash": "5484a60958f1b05d3f47138b371d04534be8fada",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/staticresources/boats/__MACOSX",
         {
-            "state": "u",
             "sourcePath": "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/staticresources/boats/__MACOSX",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 64,
             "modifiedTime": 1518182234083,
             "changeTime": 1518186117803,
-            "contentHash": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+            "contentHash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/staticresources/fivestar",
         {
-            "state": "u",
             "sourcePath": "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/staticresources/fivestar",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 192,
             "modifiedTime": 1518182234192,
             "changeTime": 1518186117821,
-            "contentHash": "647b8230bf50ddc44f788ec4367ce17a4cd6a27b"
+            "contentHash": "647b8230bf50ddc44f788ec4367ce17a4cd6a27b",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/staticresources/fivestar/__MACOSX",
         {
-            "state": "u",
             "sourcePath": "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/staticresources/fivestar/__MACOSX",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 64,
             "modifiedTime": 1518182234190,
             "changeTime": 1518186117819,
-            "contentHash": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+            "contentHash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/applications/New_Millennium_Delivery.app-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/applications/New_Millennium_Delivery.app-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 398,
             "modifiedTime": 1518184107440,
             "changeTime": 1518186166568,
-            "contentHash": "7fd98ae6a685f122cf05a0135b8bf7ba6ec341bc"
+            "contentHash": "7fd98ae6a685f122cf05a0135b8bf7ba6ec341bc",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/layouts/BoatReview__c-BoatReview Layout.layout-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/layouts/BoatReview__c-BoatReview Layout.layout-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 2268,
             "modifiedTime": 1518182232120,
             "changeTime": 1518186143510,
-            "contentHash": "075189dd2d2db236c1fa9878a874125779ee72af"
+            "contentHash": "075189dd2d2db236c1fa9878a874125779ee72af",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/layouts/BoatType__c-Boat Type Layout.layout-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/layouts/BoatType__c-Boat Type Layout.layout-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 1947,
             "modifiedTime": 1518182232122,
             "changeTime": 1518186143513,
-            "contentHash": "11d783040f4136795b5cfb29705ebffa45e29dff"
+            "contentHash": "11d783040f4136795b5cfb29705ebffa45e29dff",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/layouts/Boat__c-Boat Layout.layout-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/layouts/Boat__c-Boat Layout.layout-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 3180,
             "modifiedTime": 1518182232124,
             "changeTime": 1518186143506,
-            "contentHash": "f26d1c00ffd562cc3e91a6a04706d306195e825d"
+            "contentHash": "f26d1c00ffd562cc3e91a6a04706d306195e825d",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/layouts/Case-Case %28HowWeRoll%29 Layout.layout-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/layouts/Case-Case %28HowWeRoll%29 Layout.layout-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 9390,
             "modifiedTime": 1518177449558,
             "changeTime": 1518186020705,
-            "contentHash": "9d29ff1f1f24ba4f8956abf42289e156cae41b7e"
+            "contentHash": "9d29ff1f1f24ba4f8956abf42289e156cae41b7e",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/layouts/Product2-Product %28HowWeRoll%29 Layout.layout-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/layouts/Product2-Product %28HowWeRoll%29 Layout.layout-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 4479,
             "modifiedTime": 1518177449561,
             "changeTime": 1518186020704,
-            "contentHash": "a6b51f9db2119fae122600d47aff4e1f26176696"
+            "contentHash": "a6b51f9db2119fae122600d47aff4e1f26176696",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/layouts/Project__c-Project Layout.layout-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/layouts/Project__c-Project Layout.layout-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 2874,
             "modifiedTime": 1518181876638,
             "changeTime": 1518186036837,
-            "contentHash": "add02f11932d1ca585396e2550bb008d500803f1"
+            "contentHash": "add02f11932d1ca585396e2550bb008d500803f1",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/layouts/Vehicle__c-Vehicle Layout.layout-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/layouts/Vehicle__c-Vehicle Layout.layout-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 6690,
             "modifiedTime": 1518177449565,
             "changeTime": 1518186020706,
-            "contentHash": "e52b22ae7375fefa82ef6c3817d74174a0d5e010"
+            "contentHash": "e52b22ae7375fefa82ef6c3817d74174a0d5e010",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/layouts/Work_Part__c-Work Part Layout.layout-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/layouts/Work_Part__c-Work Part Layout.layout-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 2219,
             "modifiedTime": 1518177449568,
             "changeTime": 1518186020703,
-            "contentHash": "2b7b1e67f069f7480bf0f3d0a9b9ad8333db89a7"
+            "contentHash": "2b7b1e67f069f7480bf0f3d0a9b9ad8333db89a7",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/tabs/BoatType__c.tab-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/tabs/BoatType__c.tab-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 223,
             "modifiedTime": 1518182234194,
             "changeTime": 1518186150789,
-            "contentHash": "76512fe892410b632de766ebaaeaf759dce927a6"
+            "contentHash": "76512fe892410b632de766ebaaeaf759dce927a6",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/tabs/Boat__c.tab-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/tabs/Boat__c.tab-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 259,
             "modifiedTime": 1518182234195,
             "changeTime": 1518186150784,
-            "contentHash": "a354181366798934697ddeb9155a5bf593902ab2"
+            "contentHash": "a354181366798934697ddeb9155a5bf593902ab2",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/tabs/Project__c.tab-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/tabs/Project__c.tab-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 222,
             "modifiedTime": 1518181876669,
             "changeTime": 1518186068704,
-            "contentHash": "33d296690a642082e57b8b9dbd236b3aece5a091"
+            "contentHash": "33d296690a642082e57b8b9dbd236b3aece5a091",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/objects/Case/fields/Date_Due__c.field-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/objects/Case/fields/Date_Due__c.field-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 396,
             "modifiedTime": 1518177449573,
             "changeTime": 1518185984264,
-            "contentHash": "e1ef1626ad2c26bda3513477fde4c28624b007a4"
+            "contentHash": "e1ef1626ad2c26bda3513477fde4c28624b007a4",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/objects/Case/fields/Date_Reported__c.field-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/objects/Case/fields/Date_Reported__c.field-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 406,
             "modifiedTime": 1518177449574,
             "changeTime": 1518185984266,
-            "contentHash": "1429d7cdb7534807a0b08a408dd2860680cb4e80"
+            "contentHash": "1429d7cdb7534807a0b08a408dd2860680cb4e80",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/objects/Case/fields/Equipment__c.field-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/objects/Case/fields/Equipment__c.field-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 600,
             "modifiedTime": 1518177449575,
             "changeTime": 1518185984267,
-            "contentHash": "3c12744acedec8a318f4ff324f7fdb4a75d41fb9"
+            "contentHash": "3c12744acedec8a318f4ff324f7fdb4a75d41fb9",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/objects/Case/fields/Vehicle__c.field-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/objects/Case/fields/Vehicle__c.field-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 583,
             "modifiedTime": 1518177449576,
             "changeTime": 1518185984265,
-            "contentHash": "0ae7ba8f3227e2d8ea34545eb4ee5939d53b4950"
+            "contentHash": "0ae7ba8f3227e2d8ea34545eb4ee5939d53b4950",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/objects/Product2/fields/Cost__c.field-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/objects/Product2/fields/Cost__c.field-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 355,
             "modifiedTime": 1518177449581,
             "changeTime": 1518185984281,
-            "contentHash": "85c1a9870a8971471579fe9a5b9d6efd046c1dc7"
+            "contentHash": "85c1a9870a8971471579fe9a5b9d6efd046c1dc7",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/objects/Product2/fields/Current_Inventory__c.field-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/objects/Product2/fields/Current_Inventory__c.field-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 406,
             "modifiedTime": 1518177449582,
             "changeTime": 1518185984282,
-            "contentHash": "ab57100a5a20dbed64a75d2f18f53c870055d3c9"
+            "contentHash": "ab57100a5a20dbed64a75d2f18f53c870055d3c9",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/objects/Product2/fields/Initial_Inventory__c.field-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/objects/Product2/fields/Initial_Inventory__c.field-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 441,
             "modifiedTime": 1518184107470,
             "changeTime": 1518186206329,
-            "contentHash": "cbbfed6edb2d3d0521e9caba153b716bdf89f24b"
+            "contentHash": "cbbfed6edb2d3d0521e9caba153b716bdf89f24b",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/objects/Product2/fields/Lifespan_Months__c.field-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/objects/Product2/fields/Lifespan_Months__c.field-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 402,
             "modifiedTime": 1518177449583,
             "changeTime": 1518185984281,
-            "contentHash": "175d1834cc1bc6699bdbb9daba6163055862d8ad"
+            "contentHash": "175d1834cc1bc6699bdbb9daba6163055862d8ad",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/objects/Product2/fields/Maintenance_Cycle__c.field-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/objects/Product2/fields/Maintenance_Cycle__c.field-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 505,
             "modifiedTime": 1518177449584,
             "changeTime": 1518185984278,
-            "contentHash": "71114caf7cb44a0aea0b4fa3b1b10719e81aa0a2"
+            "contentHash": "71114caf7cb44a0aea0b4fa3b1b10719e81aa0a2",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/objects/Product2/fields/Quantity_Ordered__c.field-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/objects/Product2/fields/Quantity_Ordered__c.field-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 439,
             "modifiedTime": 1518184107471,
             "changeTime": 1518186206334,
-            "contentHash": "3c823536b782def420f3aa61c6a380c30b12c7d7"
+            "contentHash": "3c823536b782def420f3aa61c6a380c30b12c7d7",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/objects/Product2/fields/Quantity_Remaining__c.field-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/objects/Product2/fields/Quantity_Remaining__c.field-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 535,
             "modifiedTime": 1518184107472,
             "changeTime": 1518186206337,
-            "contentHash": "d50577613058f947882f9b07766f6c6c2dd421e6"
+            "contentHash": "d50577613058f947882f9b07766f6c6c2dd421e6",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/objects/Product2/fields/Replacement_Part__c.field-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/objects/Product2/fields/Replacement_Part__c.field-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 336,
             "modifiedTime": 1518177449585,
             "changeTime": 1518185984277,
-            "contentHash": "77994a2e934117790b41a183b03cdb15daa5763d"
+            "contentHash": "77994a2e934117790b41a183b03cdb15daa5763d",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/objects/Product2/fields/Warehouse_SKU__c.field-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/objects/Product2/fields/Warehouse_SKU__c.field-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 369,
             "modifiedTime": 1518177449585,
             "changeTime": 1518185984280,
-            "contentHash": "7c3a4bc8b723f894ea88336601d0a73b2f17c812"
+            "contentHash": "7c3a4bc8b723f894ea88336601d0a73b2f17c812",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/staticresources/Houseboats/fishingboat1.png",
         {
-            "state": "u",
             "sourcePath": "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/staticresources/Houseboats/fishingboat1.png",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 451104,
             "modifiedTime": 1518182232408,
             "changeTime": 1518186117835,
-            "contentHash": "f0dca5c349c620b37dc3d118cc7631c50ad06832"
+            "contentHash": "f0dca5c349c620b37dc3d118cc7631c50ad06832",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/staticresources/Houseboats/houseboat1.png",
         {
-            "state": "u",
             "sourcePath": "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/staticresources/Houseboats/houseboat1.png",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 374919,
             "modifiedTime": 1518182232453,
             "changeTime": 1518186117838,
-            "contentHash": "8e2b07958d6b8e5215d59b03273d128012f794ca"
+            "contentHash": "8e2b07958d6b8e5215d59b03273d128012f794ca",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/staticresources/Houseboats/houseboat2.png",
         {
-            "state": "u",
             "sourcePath": "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/staticresources/Houseboats/houseboat2.png",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 922336,
             "modifiedTime": 1518182232489,
             "changeTime": 1518186117837,
-            "contentHash": "e3708b06a644c3bf27b4fe331c74554314ee5aec"
+            "contentHash": "e3708b06a644c3bf27b4fe331c74554314ee5aec",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/staticresources/Houseboats/jetski1.png",
         {
-            "state": "u",
             "sourcePath": "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/staticresources/Houseboats/jetski1.png",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 409262,
             "modifiedTime": 1518182232517,
             "changeTime": 1518186117834,
-            "contentHash": "249eda8cd11309eac01b5a8c7b9bdaf19921a8d8"
+            "contentHash": "249eda8cd11309eac01b5a8c7b9bdaf19921a8d8",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/staticresources/Houseboats/partyboat1.png",
         {
-            "state": "u",
             "sourcePath": "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/staticresources/Houseboats/partyboat1.png",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 824668,
             "modifiedTime": 1518182232534,
             "changeTime": 1518186117836,
-            "contentHash": "becdd129b9d6d2343e01e611922943af37fbdada"
+            "contentHash": "becdd129b9d6d2343e01e611922943af37fbdada",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/staticresources/Houseboats.resource-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/staticresources/Houseboats.resource-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 210,
             "modifiedTime": 1518182232161,
             "changeTime": 1518186117843,
-            "contentHash": "daa89debd48598fd3138118af8ead370dbb2c259"
+            "contentHash": "daa89debd48598fd3138118af8ead370dbb2c259",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/staticresources/Leaflet/images/layers-2x.png",
         {
-            "state": "u",
             "sourcePath": "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/staticresources/Leaflet/images/layers-2x.png",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 1259,
             "modifiedTime": 1518182232635,
             "changeTime": 1518186130262,
-            "contentHash": "152a162333e46d24f9d89f566312fc0c64011dee"
+            "contentHash": "152a162333e46d24f9d89f566312fc0c64011dee",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/staticresources/Leaflet/images/layers.png",
         {
-            "state": "u",
             "sourcePath": "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/staticresources/Leaflet/images/layers.png",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 696,
             "modifiedTime": 1518182232637,
             "changeTime": 1518186130257,
-            "contentHash": "c9e7528e491a39232ba24a2706c6c739d6fb0f06"
+            "contentHash": "c9e7528e491a39232ba24a2706c6c739d6fb0f06",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/staticresources/Leaflet/images/marker-icon-2x.png",
         {
-            "state": "u",
             "sourcePath": "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/staticresources/Leaflet/images/marker-icon-2x.png",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 2586,
             "modifiedTime": 1518182232639,
             "changeTime": 1518186130260,
-            "contentHash": "95a44b9ca71fe03fdf65ddd8eea12f1910f38de2"
+            "contentHash": "95a44b9ca71fe03fdf65ddd8eea12f1910f38de2",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/staticresources/Leaflet/images/marker-icon.png",
         {
-            "state": "u",
             "sourcePath": "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/staticresources/Leaflet/images/marker-icon.png",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 1466,
             "modifiedTime": 1518182232643,
             "changeTime": 1518186130258,
-            "contentHash": "60a90bcbb2b42b7ddb4556db94eb7c1084b0e5da"
+            "contentHash": "60a90bcbb2b42b7ddb4556db94eb7c1084b0e5da",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/staticresources/Leaflet/images/marker-shadow.png",
         {
-            "state": "u",
             "sourcePath": "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/staticresources/Leaflet/images/marker-shadow.png",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 618,
             "modifiedTime": 1518182232645,
             "changeTime": 1518186130260,
-            "contentHash": "7b6a8df63930381e96604e705168d0527d6b82bc"
+            "contentHash": "7b6a8df63930381e96604e705168d0527d6b82bc",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/staticresources/Leaflet/leaflet-src.js",
         {
-            "state": "u",
             "sourcePath": "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/staticresources/Leaflet/leaflet-src.js",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 394376,
             "modifiedTime": 1518182232661,
             "changeTime": 1518186130272,
-            "contentHash": "9e70ec9b86a274ccd017405a2fb3512347e4d555"
+            "contentHash": "9e70ec9b86a274ccd017405a2fb3512347e4d555",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/staticresources/Leaflet/leaflet-src.js.map",
         {
-            "state": "u",
             "sourcePath": "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/staticresources/Leaflet/leaflet-src.js.map",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 740233,
             "modifiedTime": 1518182232676,
             "changeTime": 1518186130265,
-            "contentHash": "41ecfe3ff81ac90d89af3b9a9b497de91ae231ac"
+            "contentHash": "41ecfe3ff81ac90d89af3b9a9b497de91ae231ac",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/staticresources/Leaflet/leaflet.css",
         {
-            "state": "u",
             "sourcePath": "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/staticresources/Leaflet/leaflet.css",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 14039,
             "modifiedTime": 1518182232677,
             "changeTime": 1518186130272,
-            "contentHash": "c78f3436dd39bb361fc9f3f6cb9969edcb0e8906"
+            "contentHash": "c78f3436dd39bb361fc9f3f6cb9969edcb0e8906",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/staticresources/Leaflet/leaflet.js",
         {
-            "state": "u",
             "sourcePath": "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/staticresources/Leaflet/leaflet.js",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 137140,
             "modifiedTime": 1518182232683,
             "changeTime": 1518186130255,
-            "contentHash": "5ec5e2b89177fc1668cdacc877dd69df26cde10a"
+            "contentHash": "5ec5e2b89177fc1668cdacc877dd69df26cde10a",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/staticresources/Leaflet/leaflet.js.map",
         {
-            "state": "u",
             "sourcePath": "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/staticresources/Leaflet/leaflet.js.map",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 630329,
             "modifiedTime": 1518182232690,
             "changeTime": 1518186130263,
-            "contentHash": "7221d66ad79d1c1bf398cf5bf0cca15d24739f9c"
+            "contentHash": "7221d66ad79d1c1bf398cf5bf0cca15d24739f9c",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/staticresources/Leaflet.resource-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/staticresources/Leaflet.resource-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 210,
             "modifiedTime": 1518182232548,
             "changeTime": 1518186130277,
-            "contentHash": "daa89debd48598fd3138118af8ead370dbb2c259"
+            "contentHash": "daa89debd48598fd3138118af8ead370dbb2c259",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/staticresources/PleasureBoats/pleasureboat1.png",
         {
-            "state": "u",
             "sourcePath": "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/staticresources/PleasureBoats/pleasureboat1.png",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 877582,
             "modifiedTime": 1518182232959,
             "changeTime": 1518186130291,
-            "contentHash": "ec8b1f52e765b5119005655f8208a32387618220"
+            "contentHash": "ec8b1f52e765b5119005655f8208a32387618220",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/staticresources/PleasureBoats/pleasureboat2.png",
         {
-            "state": "u",
             "sourcePath": "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/staticresources/PleasureBoats/pleasureboat2.png",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 833972,
             "modifiedTime": 1518182233087,
             "changeTime": 1518186130292,
-            "contentHash": "57203e6a00ddb6471c9a10c1d5f431cac1386685"
+            "contentHash": "57203e6a00ddb6471c9a10c1d5f431cac1386685",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/staticresources/PleasureBoats/pleasureboat3.png",
         {
-            "state": "u",
             "sourcePath": "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/staticresources/PleasureBoats/pleasureboat3.png",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 569284,
             "modifiedTime": 1518182233218,
             "changeTime": 1518186130292,
-            "contentHash": "01798620b387172fce69b1a6c285e3f219e4c82c"
+            "contentHash": "01798620b387172fce69b1a6c285e3f219e4c82c",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/staticresources/PleasureBoats.resource-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/staticresources/PleasureBoats.resource-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 210,
             "modifiedTime": 1518182232696,
             "changeTime": 1518186130297,
-            "contentHash": "daa89debd48598fd3138118af8ead370dbb2c259"
+            "contentHash": "daa89debd48598fd3138118af8ead370dbb2c259",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/staticresources/Sailboats/sailboat1.png",
         {
-            "state": "u",
             "sourcePath": "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/staticresources/Sailboats/sailboat1.png",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 659357,
             "modifiedTime": 1518182233584,
             "changeTime": 1518186130311,
-            "contentHash": "6fec08279192cdb4084d426b54466276ec72c95b"
+            "contentHash": "6fec08279192cdb4084d426b54466276ec72c95b",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/staticresources/Sailboats/sailboat2.png",
         {
-            "state": "u",
             "sourcePath": "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/staticresources/Sailboats/sailboat2.png",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 768846,
             "modifiedTime": 1518182233677,
             "changeTime": 1518186130310,
-            "contentHash": "a3ab04b25a0ef03c9062dd5a5543ee27450f746f"
+            "contentHash": "a3ab04b25a0ef03c9062dd5a5543ee27450f746f",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/staticresources/Sailboats/skiboat1.png",
         {
-            "state": "u",
             "sourcePath": "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/staticresources/Sailboats/skiboat1.png",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 847455,
             "modifiedTime": 1518182233760,
             "changeTime": 1518186130308,
-            "contentHash": "a4f43838471507b35da44972a97b3b4a30e16a5a"
+            "contentHash": "a4f43838471507b35da44972a97b3b4a30e16a5a",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/staticresources/Sailboats/skiboat2.png",
         {
-            "state": "u",
             "sourcePath": "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/staticresources/Sailboats/skiboat2.png",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 695853,
             "modifiedTime": 1518182233815,
             "changeTime": 1518186130309,
-            "contentHash": "02599b22dd4fbf44d5037c11fe56eb3db65996ed"
+            "contentHash": "02599b22dd4fbf44d5037c11fe56eb3db65996ed",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/staticresources/Sailboats/sportboat1.png",
         {
-            "state": "u",
             "sourcePath": "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/staticresources/Sailboats/sportboat1.png",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 898239,
             "modifiedTime": 1518182233863,
             "changeTime": 1518186130306,
-            "contentHash": "a02821d37fbc440bc5184e26dd3a7e8874dc3df4"
+            "contentHash": "a02821d37fbc440bc5184e26dd3a7e8874dc3df4",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/staticresources/Sailboats/yacht1.png",
         {
-            "state": "u",
             "sourcePath": "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/staticresources/Sailboats/yacht1.png",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 290547,
             "modifiedTime": 1518182233928,
             "changeTime": 1518186130312,
-            "contentHash": "1509f39af703dd3b371c7b09638a8e1c60c152c7"
+            "contentHash": "1509f39af703dd3b371c7b09638a8e1c60c152c7",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/staticresources/Sailboats/yacht2.png",
         {
-            "state": "u",
             "sourcePath": "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/staticresources/Sailboats/yacht2.png",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 260052,
             "modifiedTime": 1518182233993,
             "changeTime": 1518186130313,
-            "contentHash": "2ce07621f53b8d6001688cf53cc808109e38d86c"
+            "contentHash": "2ce07621f53b8d6001688cf53cc808109e38d86c",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/staticresources/Sailboats.resource-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/staticresources/Sailboats.resource-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 210,
             "modifiedTime": 1518182233253,
             "changeTime": 1518186130318,
-            "contentHash": "daa89debd48598fd3138118af8ead370dbb2c259"
+            "contentHash": "daa89debd48598fd3138118af8ead370dbb2c259",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/staticresources/boats/partybarge.jpg",
         {
-            "state": "u",
             "sourcePath": "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/staticresources/boats/partybarge.jpg",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 93533,
             "modifiedTime": 1518182234092,
             "changeTime": 1518186117803,
-            "contentHash": "3dfdf31e7cf1a10af94de95284d5442519014ae4"
+            "contentHash": "3dfdf31e7cf1a10af94de95284d5442519014ae4",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/staticresources/boats/sailboat.jpg",
         {
-            "state": "u",
             "sourcePath": "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/staticresources/boats/sailboat.jpg",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 18160,
             "modifiedTime": 1518182234103,
             "changeTime": 1518186117803,
-            "contentHash": "8b19ce1a9500287d7f77ec9497ac963f04f7df3f"
+            "contentHash": "8b19ce1a9500287d7f77ec9497ac963f04f7df3f",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/staticresources/boats/speedboat.jpg",
         {
-            "state": "u",
             "sourcePath": "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/staticresources/boats/speedboat.jpg",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 538776,
             "modifiedTime": 1518182234141,
             "changeTime": 1518186117804,
-            "contentHash": "315b9a5d34f2eab68062268af60a31e125b2e0ed"
+            "contentHash": "315b9a5d34f2eab68062268af60a31e125b2e0ed",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/staticresources/boats.resource-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/staticresources/boats.resource-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 210,
             "modifiedTime": 1518182234013,
             "changeTime": 1518186117810,
-            "contentHash": "daa89debd48598fd3138118af8ead370dbb2c259"
+            "contentHash": "daa89debd48598fd3138118af8ead370dbb2c259",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/staticresources/fivestar/rating.css",
         {
-            "state": "u",
             "sourcePath": "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/staticresources/fivestar/rating.css",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 833,
             "modifiedTime": 1518182234190,
             "changeTime": 1518186117821,
-            "contentHash": "e9e1cd420990c0ce2087fa153c3bc8b64d57c7ed"
+            "contentHash": "e9e1cd420990c0ce2087fa153c3bc8b64d57c7ed",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/staticresources/fivestar/rating.js",
         {
-            "state": "u",
             "sourcePath": "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/staticresources/fivestar/rating.js",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 4671,
             "modifiedTime": 1518182234191,
             "changeTime": 1518186117819,
-            "contentHash": "8feb1ed5d715fd3db9cf130b40754f585d907105"
+            "contentHash": "8feb1ed5d715fd3db9cf130b40754f585d907105",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/staticresources/fivestar/stars.svg",
         {
-            "state": "u",
             "sourcePath": "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/staticresources/fivestar/stars.svg",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 1300,
             "modifiedTime": 1518182234192,
             "changeTime": 1518186117820,
-            "contentHash": "6c81454a41a53206cac017bfecea4a428d6f3629"
+            "contentHash": "6c81454a41a53206cac017bfecea4a428d6f3629",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/staticresources/fivestar.resource-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/smohanpattamadai/Documents/workspace/projects/sfdx/superbadge/superbadge/main/default/staticresources/fivestar.resource-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 210,
             "modifiedTime": 1518182234181,
             "changeTime": 1518186117826,
-            "contentHash": "daa89debd48598fd3138118af8ead370dbb2c259"
+            "contentHash": "daa89debd48598fd3138118af8ead370dbb2c259",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ]
 ]

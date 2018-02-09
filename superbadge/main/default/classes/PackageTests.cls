@@ -57,49 +57,6 @@ private class PackageTests {
     }
 
     /**
-     * @name product2Helper_UnitTest
-     * @description Test coverage for the packaged version of the product2Helper class
-    **/
-    static TestMethod void product2Helper_UnitTest(){
-        Test.startTest();
-            Product2 testProduct = new product2(Name='Test',Family='Entree',Initial_Inventory__c=0);
-            insert testProduct;
-            //product2Helper.afterUpdate();
-            //product2Helper.postAlerts(new List<Product2>{testProduct});
-        Test.stopTest();
-    }
-
-    /**
-     * @name product2Extension_UnitTest
-     * @description Test coverage for the packaged version of the product2Extension class
-    **/
-    static TestMethod void product2Extension_UnitTest(){
-        Test.startTest();
-            //product2Extension ext = new product2Extension();
-            //ext.getInventory();
-            //ext.addRows();
-            //ext.save();
-        Test.stopTest();
-    }
-
-    /**
-     * @name announcementQueueable_UnitTest
-     * @description Test coverage for the packaged version of the announcementQueueable class
-    **/
-    static TestMethod void announcementQueueable_UnitTest(){
-        Test.startTest();
-            List<ConnectApi.AnnouncementInput> announcements = new List<ConnectApi.AnnouncementInput>();
-            //announcementQueueable cls = new announcementQueueable();
-            //cls.toPost = announcements;
-            try {
-                //announcementQueueable.postAnnouncements(announcements);
-            } catch ( Exception e ){
-
-            }
-        Test.stopTest();
-    }
-
-    /**
      * @name orderExtension_UnitTest
      * @description Test coverage for the packaged version of the orderExtension
     **/
