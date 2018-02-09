@@ -1,0 +1,6 @@
+<aura:documentation>
+	<aura:description>This is file upload documentation</aura:description>
+	<aura:example name="ExampleName" ref="exampleComponentName" label="Label">
+		Example Description
+	</aura:example>
+</aura:documentation>

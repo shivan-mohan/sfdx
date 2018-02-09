@@ -1,0 +1,18 @@
+<aura:component implements="flexipage:availableForAllPageTypes" access="global">
+	<aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+    <aura:attribute name="detailTableHeaders" type="String[]" default="[]" />
+	<aura:attribute name="detailTableRows" type="Object[]" />
+    <aura:attribute name="sortedBy" type="String" default="" />
+    <aura:attribute name="sortedDirection" type="String" default="asc" />
+    <aura:attribute name="cellvalue" type="Decimal" />
+    
+    <lightning:datatable data="{!v.detailTableRows}"
+                         columns="{!v.detailTableHeaders}"
+                         keyField="id"
+                         defaultSortDirection="asc"
+                         onsort="{!c.sortData}"/>
+    <lightning:input type="number" step="0.00001" label="Label" variant="label-hidden"
+                     name="inputNumber" value="{!v.cellvalue}" aura:id="inputNumber"
+                     maxlength="18"
+                     max="500" min="5" onchange="{!c.onCellChange}"/>
+</aura:component>

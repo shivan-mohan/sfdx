@@ -1,0 +1,43 @@
+<aura:component implements="flexipage:availableForAllPageTypes" access="global">
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+    <aura:attribute name="detailTableHeaders" type="String[]" default="[]" />
+	<aura:attribute name="detailTableRows" type="Object[]" />
+    <aura:attribute name="sortedBy" type="String" default="" />
+    <aura:attribute name="sortedDirection" type="String" default="asc" />
+    <table class="slds-table slds-table--bordered slds-table--cell-buffered slds-no-row-hover">
+        <thead>
+            <tr class="slds-text-heading--label">
+                <th></th>
+                <aura:iteration items="{!v.detailTableHeaders}" var="header">
+                    <th class="faux-link" onclick="{!c.sortData}">{!header}</th>
+                </aura:iteration>
+            </tr>
+        </thead>
+        <tbody>
+            <aura:iteration items="{!v.detailTableRows}" var="row">
+                <tr>
+                    <th class="slds-text-align_right" scope="col" style="width: 3.25rem;">
+                        <div class="slds-th__action slds-th__action_form">
+                            <span class="slds-checkbox">
+                                <input type="checkbox" name="options" id="selcheckbox" tabindex="-1" value="on" />
+                                <label class="slds-checkbox__label" for="selcheckbox">
+                                    <span class="slds-checkbox_faux"></span>
+                                    <span class="slds-form-element__label slds-assistive-text">Select All</span>
+                                </label>
+                            </span>
+                        </div>
+                    </th>
+                    <aura:iteration items="{!row}" var="cell">
+                        <td data-label="{!cell.fieldLabel}">
+                            <div class="{!cell.isLink ? 'faux-link' : ''}" data-url="{!cell.isLink ? cell.urlValue : ''}" >
+                                <aura:if isTrue="{!cell.isDate}"><ui:outputDate value="{!cell.fieldValue}" format="MM/DD/YYYY" /></aura:if>
+                                <aura:if isTrue="{!cell.isCurrency}"><ui:outputCurrency value="{!cell.fieldValue}" /></aura:if>
+                                <aura:if isTrue="{!and(!cell.isDate, !cell.isCurrency)}">{!cell.fieldValue}</aura:if>
+                            </div>
+                        </td>
+                    </aura:iteration>
+                </tr>
+            </aura:iteration>
+        </tbody>
+    </table>
+</aura:component>

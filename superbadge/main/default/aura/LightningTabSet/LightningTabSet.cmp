@@ -1,0 +1,8 @@
+<aura:component implements="flexipage:availableForAllPageTypes" access="global">
+    <lightning:tabset >
+        <lightning:tab id="lightningdatatable" label="Lightning DataTable" onactive="{!c.onTabSelect}">
+        </lightning:tab>
+        <lightning:tab id="lightningdatatableold" label="Lightning DataTable Old" onactive="{!c.onTabSelect}">
+        </lightning:tab>
+    </lightning:tabset>
+</aura:component>

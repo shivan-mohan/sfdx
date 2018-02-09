@@ -1,0 +1,5 @@
+<aura:component implements="force:hasRecordId,force:lightningQuickActionWithoutHeader" controller="LightningFileUploadOld" access="global" >
+	<div>
+        <lightning:input aura:id="file" type="file" label="Attach file" name="file" multiple="false" accept=".pdf" onchange="{!c.uploadFileClient}" />
+    </div>
+</aura:component>

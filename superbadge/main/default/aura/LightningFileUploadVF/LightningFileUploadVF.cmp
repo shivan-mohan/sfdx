@@ -1,0 +1,5 @@
+<aura:component implements="force:hasRecordId,force:lightningQuickActionWithoutHeader,flexipage:availableForAllPageTypes" access="global" >
+    <div>
+        <iframe	src="{!'../apex/FileUploadVF?parentId='+v.recordId}" frameBorder="0" />
+    </div>
+</aura:component>

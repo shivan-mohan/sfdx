@@ -1,0 +1,3 @@
+<aura:event type="COMPONENT" description="Boat Search Form Submit">
+    <aura:attribute name="formData" type="Object" />
+</aura:event>

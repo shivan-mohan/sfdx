@@ -1,0 +1,10 @@
+<apex:page id="LightningDataTableOld" cache="false" expires="0" showHeader="false" sidebar="false">
+    <apex:includeLightning />
+    <script>
+        $Lightning.use("c:LightningTabSetApp", function() {
+            $Lightning.createComponent("c:LightningTabSet", {}, "componentdiv", function(cmp) {});
+        });
+    </script>
+    <div id="componentdiv">
+    </div>
+</apex:page>

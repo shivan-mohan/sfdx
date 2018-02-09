@@ -1,0 +1,20 @@
+<apex:page docType="html-5.0" showheader="false" sidebar="false" controller="LightningFileUploadVF">
+    <script src="../../soap/ajax/41.0/connection.js" type="text/javascript" />
+    <head>
+        <apex:includeScript value="{!URLFOR($Resource.jquery321)}" />
+    </head>
+    <body>
+        <div>
+            <input type="file" id="file" />
+            <label for="file">
+                Upload File VF
+            </label>
+        </div>
+        <script>
+            $(document).on('change','#file' , function() {
+                var file = $('#file')[0].files[0];
+                console.log(file);
+            });
+        </script>
+    </body>
+</apex:page>

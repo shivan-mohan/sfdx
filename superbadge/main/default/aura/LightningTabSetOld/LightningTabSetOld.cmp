@@ -1,0 +1,22 @@
+<aura:component implements="flexipage:availableForAllPageTypes" access="global">
+	<div class="slds-tabs--default">
+        <ul class="slds-tabs--default__nav" role="tablist">
+            <li data-tabid="tab-lightningdatatable" class="slds-tabs--default__item slds-text-heading--label slds-active" aura:id="dataTableTabs" title="Lightning DataTable" role="presentation">
+                <span class="slds-tabs--default__link" onclick="{!c.changeTab}" role="tab" tabindex="-1" aria-selected="true" aria-controls="tab-lightningdatatable" id="tab-lightningdatatable">Lightning DataTable</span>
+            </li>
+            <li data-tabid="tab-lightningdatatableold" class="slds-tabs--default__item slds-text-heading--label" aura:id="dataTableTabs" title="Lightning DataTable Old" role="presentation">
+                <span class="slds-tabs--default__link" onclick="{!c.changeTab}" role="tab" tabindex="-1" aria-selected="false" aria-controls="tab-lightningdatatableold" id="tab-lightningdatatableold">Lightning DataTable Old</span>
+            </li>
+        </ul>
+        <div>
+            <div id="tab-lightningdatatable" aura:id="dataTablePanels" class="slds-tabs--default__content slds-show" role="tabpanel" aria-labelledby="tab-default-1__item">
+                <c:LightningDataTable />
+            </div>
+        </div>
+        <div>
+            <div id="tab-lightningdatatableold" aura:id="dataTablePanels" class="slds-tabs--default__content slds-hide" role="tabpanel" aria-labelledby="tab-default-2__item">
+                <c:LightningDataTableOld />
+            </div>
+        </div>
+    </div>
+</aura:component>

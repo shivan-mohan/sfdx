@@ -1,0 +1,6 @@
+<aura:documentation>
+	<aura:description>This is a sample tab set documentation</aura:description>
+	<aura:example name="tabSet" ref="c:LightningTabSet" label="Tab Set">
+		This is a sample tab set documentation
+	</aura:example>
+</aura:documentation>
