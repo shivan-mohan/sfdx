@@ -3,17 +3,16 @@
     "typeDefs": {
         "InstalledPackage": {
             "metadataName": "InstalledPackage",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "installedPackage",
             "hasContent": false,
             "defaultDirectory": "installedPackages",
             "nameForMsgs": "Installed Package",
             "nameForMsgsPlural": "Installed Packages",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -22,24 +21,24 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "CustomLabels": {
             "metadataName": "CustomLabels",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "labels",
             "hasContent": false,
             "defaultDirectory": "labels",
             "nameForMsgs": "Custom Label",
             "nameForMsgsPlural": "Custom Labels",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "childXmlNames": [
                 "CustomLabel"
             ],
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -48,21 +47,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "StaticResource": {
             "metadataName": "StaticResource",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "resource",
             "hasContent": true,
             "defaultDirectory": "staticresources",
             "nameForMsgs": "Static Resource",
             "nameForMsgsPlural": "Static Resources",
             "contentIsBinary": true,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "describeMetadata",
                 "workspaceStrategy": "nonDecomposed",
@@ -71,21 +70,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "staticResource"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "Scontrol": {
             "metadataName": "Scontrol",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "scf",
             "hasContent": true,
             "defaultDirectory": "scontrols",
             "nameForMsgs": "Scontrol",
             "nameForMsgsPlural": "Scontrols",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -94,21 +93,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "Certificate": {
             "metadataName": "Certificate",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "crt",
             "hasContent": true,
             "defaultDirectory": "certs",
             "nameForMsgs": "Certificate",
             "nameForMsgsPlural": "Certificates",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -117,21 +116,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "AuraDefinitionBundle": {
             "metadataName": "AuraDefinitionBundle",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "aurabundle",
             "hasContent": true,
             "defaultDirectory": "aura",
             "nameForMsgs": "Lightning Component Bundle",
             "nameForMsgsPlural": "Lightning Component Bundles",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -140,21 +139,44 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
+        },
+        "LightningComponentBundle": {
+            "metadataName": "LightningComponentBundle",
+            "isAddressable": true,
+            "isSourceTracked": true,
+            "ext": "lightningcomponentbundle",
+            "hasContent": true,
+            "defaultDirectory": "lightningcomponents",
+            "nameForMsgs": "Lightning Component Bundle",
+            "nameForMsgsPlural": "Lightning Component Bundles",
+            "contentIsBinary": false,
+            "hasStandardMembers": false,
+            "deleteSupported": true,
+            "decompositionConfig": {
+                "strategy": "nonDecomposed",
+                "workspaceStrategy": "nonDecomposed",
+                "commitStrategy": "fineGrainTracking",
+                "metadataName": "LightningComponentBundle",
+                "useSparseComposition": false,
+                "decompositions": [],
+                "contentStrategy": "nonDecomposedContent"
+            },
+            "hasVirtualSubtypes": false
         },
         "ApexComponent": {
             "metadataName": "ApexComponent",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "component",
             "hasContent": true,
             "defaultDirectory": "components",
             "nameForMsgs": "Visualforce Component",
             "nameForMsgsPlural": "Visualforce Components",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -163,21 +185,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "ApexPage": {
             "metadataName": "ApexPage",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "page",
             "hasContent": true,
             "defaultDirectory": "pages",
             "nameForMsgs": "Visualforce Page",
             "nameForMsgsPlural": "Visualforce Pages",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -186,21 +208,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "Queue": {
             "metadataName": "Queue",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "queue",
             "hasContent": false,
             "defaultDirectory": "queues",
             "nameForMsgs": "Queue",
             "nameForMsgsPlural": "Queues",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -209,21 +231,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "CustomDataType": {
             "metadataName": "CustomDataType",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "datatype",
             "hasContent": false,
             "defaultDirectory": "datatypes",
             "nameForMsgs": "Custom Data Type",
             "nameForMsgsPlural": "Custom Data Types",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -232,21 +254,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "CaseSubjectParticle": {
             "metadataName": "CaseSubjectParticle",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "CaseSubjectParticle",
             "hasContent": false,
             "defaultDirectory": "CaseSubjectParticles",
             "nameForMsgs": "Case Subject Particle",
             "nameForMsgsPlural": "Case Subject Particles",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -255,21 +277,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "ExternalDataSource": {
             "metadataName": "ExternalDataSource",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "dataSource",
             "hasContent": false,
             "defaultDirectory": "dataSources",
             "nameForMsgs": "External Data Source",
             "nameForMsgsPlural": "External Data Sources",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -278,21 +300,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "NamedCredential": {
             "metadataName": "NamedCredential",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "namedCredential",
             "hasContent": false,
             "defaultDirectory": "namedCredentials",
             "nameForMsgs": "Named Credential",
             "nameForMsgsPlural": "Named Credentials",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -301,21 +323,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "ExternalServiceRegistration": {
             "metadataName": "ExternalServiceRegistration",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "externalServiceRegistration",
             "hasContent": false,
             "defaultDirectory": "externalServiceRegistrations",
             "nameForMsgs": "External Service Registration",
             "nameForMsgsPlural": "External Service Registrations",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -324,21 +346,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "Role": {
             "metadataName": "Role",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "role",
             "hasContent": false,
             "defaultDirectory": "roles",
             "nameForMsgs": "Role",
             "nameForMsgsPlural": "Roles",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -347,21 +369,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "Territory": {
             "metadataName": "Territory",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "territory",
             "hasContent": false,
             "defaultDirectory": "territories",
             "nameForMsgs": "Territory",
             "nameForMsgsPlural": "Territorys",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -370,21 +392,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "Group": {
             "metadataName": "Group",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "group",
             "hasContent": false,
             "defaultDirectory": "groups",
             "nameForMsgs": "Group",
             "nameForMsgsPlural": "Groups",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -393,21 +415,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "UiPlugin": {
             "metadataName": "UiPlugin",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "uiplugin",
             "hasContent": true,
             "defaultDirectory": "uiplugins",
             "nameForMsgs": "Ui Plugin",
             "nameForMsgsPlural": "Ui Plugins",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -416,21 +438,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "GlobalValueSet": {
             "metadataName": "GlobalValueSet",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "globalValueSet",
             "hasContent": false,
             "defaultDirectory": "globalValueSets",
             "nameForMsgs": "Global Value Set",
             "nameForMsgsPlural": "Global Value Sets",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -439,21 +461,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "GlobalPicklist": {
             "metadataName": "GlobalPicklist",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "globalPicklist",
             "hasContent": false,
             "defaultDirectory": "globalPicklists",
             "nameForMsgs": "Global Picklist",
             "nameForMsgsPlural": "Global Picklists",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -462,21 +484,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "StandardValueSet": {
             "metadataName": "StandardValueSet",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "standardValueSet",
             "hasContent": false,
             "defaultDirectory": "standardValueSets",
             "nameForMsgs": "Standard Value Set",
             "nameForMsgsPlural": "Standard Value Sets",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": true,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -485,21 +507,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "CustomPermission": {
             "metadataName": "CustomPermission",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "customPermission",
             "hasContent": false,
             "defaultDirectory": "customPermissions",
             "nameForMsgs": "Custom Permission",
             "nameForMsgsPlural": "Custom Permissions",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -508,18 +530,19 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "CustomObject": {
             "metadataName": "CustomObject",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "object",
             "hasContent": false,
             "defaultDirectory": "objects",
             "nameForMsgs": "Custom Object",
             "nameForMsgsPlural": "Custom Objects",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "childXmlNames": [
                 "CustomField",
                 "Index",
@@ -534,7 +557,6 @@
             ],
             "hasStandardMembers": true,
             "deleteSupported": true,
-            "hasVirtualSubtypes": true,
             "decompositionConfig": {
                 "strategy": "describeMetadata",
                 "workspaceStrategy": "folderPerSubtype",
@@ -636,21 +658,21 @@
                         "isAddressable": true
                     }
                 ]
-            }
+            },
+            "hasVirtualSubtypes": true
         },
         "ReportType": {
             "metadataName": "ReportType",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "reportType",
             "hasContent": false,
             "defaultDirectory": "reportTypes",
             "nameForMsgs": "Report Type",
             "nameForMsgsPlural": "Report Types",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -659,32 +681,32 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "Report": {
             "metadataName": "Report",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "report",
             "hasContent": false,
             "defaultDirectory": "reports",
             "nameForMsgs": "Report",
             "nameForMsgsPlural": "Reports",
             "contentIsBinary": true,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
             "inFolder": true,
             "folderTypeDef": {
                 "metadataName": "ReportFolder",
+                "isAddressable": false,
+                "isSourceTracked": true,
                 "ext": "reportFolder",
                 "hasContent": false,
                 "defaultDirectory": "reports",
                 "nameForMsgs": "Report Folder",
                 "nameForMsgsPlural": "Report Folders",
                 "contentIsBinary": false,
-                "isAddressable": false,
-                "isSourceTracked": true,
-                "hasVirtualSubtypes": false,
                 "decompositionConfig": {
                     "strategy": "nonDecomposed",
                     "workspaceStrategy": "nonDecomposed",
@@ -693,9 +715,9 @@
                     "useSparseComposition": false,
                     "decompositions": [],
                     "contentStrategy": "nonDecomposedContent"
-                }
+                },
+                "hasVirtualSubtypes": false
             },
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "describeMetadata",
                 "workspaceStrategy": "inFolderMetadataType",
@@ -704,19 +726,19 @@
                 "metadataName": "Report",
                 "useSparseComposition": false,
                 "decompositions": []
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "ReportFolder": {
             "metadataName": "ReportFolder",
+            "isAddressable": false,
+            "isSourceTracked": true,
             "ext": "reportFolder",
             "hasContent": false,
             "defaultDirectory": "reports",
             "nameForMsgs": "Report Folder",
             "nameForMsgsPlural": "Report Folders",
             "contentIsBinary": false,
-            "isAddressable": false,
-            "isSourceTracked": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -725,32 +747,32 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "Dashboard": {
             "metadataName": "Dashboard",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "dashboard",
             "hasContent": false,
             "defaultDirectory": "dashboards",
             "nameForMsgs": "Dashboard",
             "nameForMsgsPlural": "Dashboards",
             "contentIsBinary": true,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
             "inFolder": true,
             "folderTypeDef": {
                 "metadataName": "DashboardFolder",
+                "isAddressable": false,
+                "isSourceTracked": true,
                 "ext": "dashboardFolder",
                 "hasContent": false,
                 "defaultDirectory": "dashboards",
                 "nameForMsgs": "Dashboard Folder",
                 "nameForMsgsPlural": "Dashboard Folders",
                 "contentIsBinary": false,
-                "isAddressable": false,
-                "isSourceTracked": true,
-                "hasVirtualSubtypes": false,
                 "decompositionConfig": {
                     "strategy": "nonDecomposed",
                     "workspaceStrategy": "nonDecomposed",
@@ -759,9 +781,9 @@
                     "useSparseComposition": false,
                     "decompositions": [],
                     "contentStrategy": "nonDecomposedContent"
-                }
+                },
+                "hasVirtualSubtypes": false
             },
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "describeMetadata",
                 "workspaceStrategy": "inFolderMetadataType",
@@ -770,19 +792,19 @@
                 "metadataName": "Dashboard",
                 "useSparseComposition": false,
                 "decompositions": []
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "DashboardFolder": {
             "metadataName": "DashboardFolder",
+            "isAddressable": false,
+            "isSourceTracked": true,
             "ext": "dashboardFolder",
             "hasContent": false,
             "defaultDirectory": "dashboards",
             "nameForMsgs": "Dashboard Folder",
             "nameForMsgsPlural": "Dashboard Folders",
             "contentIsBinary": false,
-            "isAddressable": false,
-            "isSourceTracked": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -791,21 +813,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "VisualizationPlugin": {
             "metadataName": "VisualizationPlugin",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "visualizationPlugin",
             "hasContent": false,
             "defaultDirectory": "visualizationPlugins",
             "nameForMsgs": "Visualization Plugin",
             "nameForMsgsPlural": "Visualization Plugins",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -814,21 +836,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "AnalyticSnapshot": {
             "metadataName": "AnalyticSnapshot",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "snapshot",
             "hasContent": false,
             "defaultDirectory": "analyticSnapshots",
             "nameForMsgs": "Analytic Snapshot",
             "nameForMsgsPlural": "Analytic Snapshots",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -837,21 +859,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "CustomFeedFilter": {
             "metadataName": "CustomFeedFilter",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "feedFilter",
             "hasContent": false,
             "defaultDirectory": "feedFilters",
             "nameForMsgs": "Custom Feed Filter",
             "nameForMsgsPlural": "Custom Feed Filters",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -860,21 +882,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "Layout": {
             "metadataName": "Layout",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "layout",
             "hasContent": false,
             "defaultDirectory": "layouts",
             "nameForMsgs": "Layout",
             "nameForMsgsPlural": "Layouts",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -883,32 +905,32 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "Document": {
             "metadataName": "Document",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "document",
             "hasContent": true,
             "defaultDirectory": "documents",
             "nameForMsgs": "Document",
             "nameForMsgsPlural": "Documents",
             "contentIsBinary": true,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
             "inFolder": true,
             "folderTypeDef": {
                 "metadataName": "DocumentFolder",
+                "isAddressable": false,
+                "isSourceTracked": true,
                 "ext": "documentFolder",
                 "hasContent": false,
                 "defaultDirectory": "documents",
                 "nameForMsgs": "Document Folder",
                 "nameForMsgsPlural": "Document Folders",
                 "contentIsBinary": false,
-                "isAddressable": false,
-                "isSourceTracked": true,
-                "hasVirtualSubtypes": false,
                 "decompositionConfig": {
                     "strategy": "nonDecomposed",
                     "workspaceStrategy": "nonDecomposed",
@@ -917,9 +939,9 @@
                     "useSparseComposition": false,
                     "decompositions": [],
                     "contentStrategy": "nonDecomposedContent"
-                }
+                },
+                "hasVirtualSubtypes": false
             },
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "describeMetadata",
                 "workspaceStrategy": "inFolderMetadataType",
@@ -928,19 +950,19 @@
                 "metadataName": "Document",
                 "useSparseComposition": false,
                 "decompositions": []
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "DocumentFolder": {
             "metadataName": "DocumentFolder",
+            "isAddressable": false,
+            "isSourceTracked": true,
             "ext": "documentFolder",
             "hasContent": false,
             "defaultDirectory": "documents",
             "nameForMsgs": "Document Folder",
             "nameForMsgsPlural": "Document Folders",
             "contentIsBinary": false,
-            "isAddressable": false,
-            "isSourceTracked": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -949,21 +971,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "CustomPageWebLink": {
             "metadataName": "CustomPageWebLink",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "custompageweblink",
             "hasContent": false,
             "defaultDirectory": "weblinks",
             "nameForMsgs": "Custom Page Web Link",
             "nameForMsgsPlural": "Custom Page Web Links",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -972,21 +994,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "Letterhead": {
             "metadataName": "Letterhead",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "letter",
             "hasContent": false,
             "defaultDirectory": "letterhead",
             "nameForMsgs": "Letterhead",
             "nameForMsgsPlural": "Letterheads",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -995,32 +1017,32 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "EmailTemplate": {
             "metadataName": "EmailTemplate",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "email",
             "hasContent": true,
             "defaultDirectory": "email",
             "nameForMsgs": "Email Template",
             "nameForMsgsPlural": "Email Templates",
             "contentIsBinary": true,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
             "inFolder": true,
             "folderTypeDef": {
                 "metadataName": "EmailFolder",
+                "isAddressable": false,
+                "isSourceTracked": true,
                 "ext": "emailFolder",
                 "hasContent": false,
                 "defaultDirectory": "email",
                 "nameForMsgs": "Email Template Folder",
                 "nameForMsgsPlural": "Email Template Folders",
                 "contentIsBinary": false,
-                "isAddressable": false,
-                "isSourceTracked": true,
-                "hasVirtualSubtypes": false,
                 "decompositionConfig": {
                     "strategy": "nonDecomposed",
                     "workspaceStrategy": "nonDecomposed",
@@ -1029,9 +1051,9 @@
                     "useSparseComposition": false,
                     "decompositions": [],
                     "contentStrategy": "nonDecomposedContent"
-                }
+                },
+                "hasVirtualSubtypes": false
             },
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "describeMetadata",
                 "workspaceStrategy": "inFolderMetadataType",
@@ -1040,19 +1062,19 @@
                 "metadataName": "EmailTemplate",
                 "useSparseComposition": false,
                 "decompositions": []
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "EmailFolder": {
             "metadataName": "EmailFolder",
+            "isAddressable": false,
+            "isSourceTracked": true,
             "ext": "emailFolder",
             "hasContent": false,
             "defaultDirectory": "email",
             "nameForMsgs": "Email Template Folder",
             "nameForMsgsPlural": "Email Template Folders",
             "contentIsBinary": false,
-            "isAddressable": false,
-            "isSourceTracked": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -1061,21 +1083,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "QuickAction": {
             "metadataName": "QuickAction",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "quickAction",
             "hasContent": false,
             "defaultDirectory": "quickActions",
             "nameForMsgs": "Quick Action",
             "nameForMsgsPlural": "Quick Actions",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -1084,21 +1106,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "FlexiPage": {
             "metadataName": "FlexiPage",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "flexipage",
             "hasContent": false,
             "defaultDirectory": "flexipages",
             "nameForMsgs": "Flexi Page",
             "nameForMsgsPlural": "Flexi Pages",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -1107,21 +1129,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "CustomTab": {
             "metadataName": "CustomTab",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "tab",
             "hasContent": false,
             "defaultDirectory": "tabs",
             "nameForMsgs": "Custom Tab",
             "nameForMsgsPlural": "Custom Tabs",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -1130,21 +1152,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "CustomApplicationComponent": {
             "metadataName": "CustomApplicationComponent",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "customApplicationComponent",
             "hasContent": false,
             "defaultDirectory": "customApplicationComponents",
             "nameForMsgs": "Custom Application Component",
             "nameForMsgsPlural": "Custom Application Components",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -1153,21 +1175,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "CustomApplication": {
             "metadataName": "CustomApplication",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "app",
             "hasContent": false,
             "defaultDirectory": "applications",
             "nameForMsgs": "Custom Application",
             "nameForMsgsPlural": "Custom Applications",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -1176,21 +1198,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "Portal": {
             "metadataName": "Portal",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "portal",
             "hasContent": false,
             "defaultDirectory": "portals",
             "nameForMsgs": "Portal",
             "nameForMsgsPlural": "Portals",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -1199,21 +1221,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "EmbeddedServiceConfig": {
             "metadataName": "EmbeddedServiceConfig",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "EmbeddedServiceConfig",
             "hasContent": false,
             "defaultDirectory": "EmbeddedServiceConfig",
             "nameForMsgs": "Embedded Service Config",
             "nameForMsgsPlural": "Embedded Service Configs",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -1222,21 +1244,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "EmbeddedServiceLiveAgent": {
             "metadataName": "EmbeddedServiceLiveAgent",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "EmbeddedServiceLiveAgent",
             "hasContent": false,
             "defaultDirectory": "EmbeddedServiceLiveAgent",
             "nameForMsgs": "Embedded Service Live Agent",
             "nameForMsgsPlural": "Embedded Service Live Agents",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -1245,21 +1267,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "EmbeddedServiceFieldService": {
             "metadataName": "EmbeddedServiceFieldService",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "EmbeddedServiceFieldService",
             "hasContent": false,
             "defaultDirectory": "EmbeddedServiceFieldService",
             "nameForMsgs": "Embedded Service Field Service",
             "nameForMsgsPlural": "Embedded Service Field Services",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -1268,21 +1290,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "EmbeddedServiceBranding": {
             "metadataName": "EmbeddedServiceBranding",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "EmbeddedServiceBranding",
             "hasContent": false,
             "defaultDirectory": "EmbeddedServiceBranding",
             "nameForMsgs": "Embedded Service Branding",
             "nameForMsgsPlural": "Embedded Service Brandings",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -1291,21 +1313,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "Flow": {
             "metadataName": "Flow",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "flow",
             "hasContent": false,
             "defaultDirectory": "flows",
             "nameForMsgs": "Flow",
             "nameForMsgsPlural": "Flows",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -1314,21 +1336,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "FlowDefinition": {
             "metadataName": "FlowDefinition",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "flowDefinition",
             "hasContent": false,
             "defaultDirectory": "flowDefinitions",
             "nameForMsgs": "Flow Definition",
             "nameForMsgsPlural": "Flow Definitions",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -1337,21 +1359,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "EventType": {
             "metadataName": "EventType",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "eventType",
             "hasContent": false,
             "defaultDirectory": "eventTypes",
             "nameForMsgs": "Event Type",
             "nameForMsgsPlural": "Event Types",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -1360,21 +1382,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "EventSubscription": {
             "metadataName": "EventSubscription",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "subscription",
             "hasContent": false,
             "defaultDirectory": "eventSubscriptions",
             "nameForMsgs": "Event Subscription",
             "nameForMsgsPlural": "Event Subscriptions",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -1383,21 +1405,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "EventDelivery": {
             "metadataName": "EventDelivery",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "delivery",
             "hasContent": false,
             "defaultDirectory": "eventDeliveries",
             "nameForMsgs": "Event Delivery",
             "nameForMsgsPlural": "Event Deliverys",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -1406,18 +1428,19 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "Workflow": {
             "metadataName": "Workflow",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "workflow",
             "hasContent": false,
             "defaultDirectory": "workflows",
             "nameForMsgs": "Workflow",
             "nameForMsgsPlural": "Workflows",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "childXmlNames": [
                 "WorkflowFieldUpdate",
                 "WorkflowKnowledgePublish",
@@ -1429,7 +1452,6 @@
             ],
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -1438,24 +1460,24 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "AssignmentRules": {
             "metadataName": "AssignmentRules",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "assignmentRules",
             "hasContent": false,
             "defaultDirectory": "assignmentRules",
             "nameForMsgs": "Assignment Rule",
             "nameForMsgsPlural": "Assignment Rules",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "childXmlNames": [
                 "AssignmentRule"
             ],
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -1464,24 +1486,24 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "AutoResponseRules": {
             "metadataName": "AutoResponseRules",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "autoResponseRules",
             "hasContent": false,
             "defaultDirectory": "autoResponseRules",
             "nameForMsgs": "Auto Response Rule",
             "nameForMsgsPlural": "Auto Response Rules",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "childXmlNames": [
                 "AutoResponseRule"
             ],
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -1490,24 +1512,24 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "EscalationRules": {
             "metadataName": "EscalationRules",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "escalationRules",
             "hasContent": false,
             "defaultDirectory": "escalationRules",
             "nameForMsgs": "Escalation Rule",
             "nameForMsgsPlural": "Escalation Rules",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "childXmlNames": [
                 "EscalationRule"
             ],
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -1516,21 +1538,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "PostTemplate": {
             "metadataName": "PostTemplate",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "postTemplate",
             "hasContent": false,
             "defaultDirectory": "postTemplates",
             "nameForMsgs": "Post Template",
             "nameForMsgsPlural": "Post Templates",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -1539,21 +1561,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "ApprovalProcess": {
             "metadataName": "ApprovalProcess",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "approvalProcess",
             "hasContent": false,
             "defaultDirectory": "approvalProcesses",
             "nameForMsgs": "Approval Process",
             "nameForMsgsPlural": "Approval Processes",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -1562,21 +1584,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "HomePageComponent": {
             "metadataName": "HomePageComponent",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "homePageComponent",
             "hasContent": false,
             "defaultDirectory": "homePageComponents",
             "nameForMsgs": "Home Page Component",
             "nameForMsgsPlural": "Home Page Components",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -1585,21 +1607,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "HomePageLayout": {
             "metadataName": "HomePageLayout",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "homePageLayout",
             "hasContent": false,
             "defaultDirectory": "homePageLayouts",
             "nameForMsgs": "Home Page Layout",
             "nameForMsgsPlural": "Home Page Layouts",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -1608,24 +1630,24 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "CustomObjectTranslation": {
             "metadataName": "CustomObjectTranslation",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "objectTranslation",
             "hasContent": false,
             "defaultDirectory": "objectTranslations",
             "nameForMsgs": "Custom Object Translation",
             "nameForMsgsPlural": "Custom Object Translations",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
-            "hasStandardMembers": true,
-            "deleteSupported": true,
             "childXmlNames": [
                 "CustomFieldTranslation"
             ],
-            "hasVirtualSubtypes": true,
+            "hasStandardMembers": true,
+            "deleteSupported": true,
             "decompositionConfig": {
                 "strategy": "describeMetadata",
                 "workspaceStrategy": "folderPerSubtype",
@@ -1646,21 +1668,21 @@
                         "isAddressable": false
                     }
                 ]
-            }
+            },
+            "hasVirtualSubtypes": true
         },
         "Translations": {
             "metadataName": "Translations",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "translation",
             "hasContent": false,
             "defaultDirectory": "translations",
             "nameForMsgs": "Translations",
             "nameForMsgsPlural": "Translationses",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -1669,21 +1691,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "GlobalValueSetTranslation": {
             "metadataName": "GlobalValueSetTranslation",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "globalValueSetTranslation",
             "hasContent": false,
             "defaultDirectory": "globalValueSetTranslations",
             "nameForMsgs": "Global Value Set Translation",
             "nameForMsgsPlural": "Global Value Set Translations",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -1692,21 +1714,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "StandardValueSetTranslation": {
             "metadataName": "StandardValueSetTranslation",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "standardValueSetTranslation",
             "hasContent": false,
             "defaultDirectory": "standardValueSetTranslations",
             "nameForMsgs": "Standard Value Set Translation",
             "nameForMsgsPlural": "Standard Value Set Translations",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -1715,21 +1737,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "ApexClass": {
             "metadataName": "ApexClass",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "cls",
             "hasContent": true,
             "defaultDirectory": "classes",
             "nameForMsgs": "Apex Class",
             "nameForMsgsPlural": "Apex Classes",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -1738,21 +1760,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "ApexTrigger": {
             "metadataName": "ApexTrigger",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "trigger",
             "hasContent": true,
             "defaultDirectory": "triggers",
             "nameForMsgs": "Apex Trigger",
             "nameForMsgsPlural": "Apex Triggers",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -1761,21 +1783,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "ApexTestSuite": {
             "metadataName": "ApexTestSuite",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "testSuite",
             "hasContent": false,
             "defaultDirectory": "testSuites",
             "nameForMsgs": "Apex Test Suite",
             "nameForMsgsPlural": "Apex Test Suites",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -1784,21 +1806,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "Profile": {
             "metadataName": "Profile",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "profile",
             "hasContent": false,
             "defaultDirectory": "profiles",
             "nameForMsgs": "Profile",
             "nameForMsgsPlural": "Profiles",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -1807,21 +1829,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "PermissionSet": {
             "metadataName": "PermissionSet",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "permissionset",
             "hasContent": false,
             "defaultDirectory": "permissionsets",
             "nameForMsgs": "Permission Set",
             "nameForMsgsPlural": "Permission Sets",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -1830,21 +1852,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "PermissionSetGroup": {
             "metadataName": "PermissionSetGroup",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "permissionsetgroup",
             "hasContent": false,
             "defaultDirectory": "permissionsetgroups",
             "nameForMsgs": "Permission Set Group",
             "nameForMsgsPlural": "Permission Set Groups",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -1853,21 +1875,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "CustomMetadata": {
             "metadataName": "CustomMetadata",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "md",
             "hasContent": false,
             "defaultDirectory": "customMetadata",
             "nameForMsgs": "Custom Metadata",
             "nameForMsgsPlural": "Custom Metadatas",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -1876,21 +1898,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "ProfilePasswordPolicy": {
             "metadataName": "ProfilePasswordPolicy",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "profilePasswordPolicy",
             "hasContent": false,
             "defaultDirectory": "profilePasswordPolicies",
             "nameForMsgs": "Profile Password Policy",
             "nameForMsgsPlural": "Profile Password Policys",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -1899,21 +1921,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "ProfileSessionSetting": {
             "metadataName": "ProfileSessionSetting",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "profileSessionSetting",
             "hasContent": false,
             "defaultDirectory": "profileSessionSettings",
             "nameForMsgs": "Profile Session Setting",
             "nameForMsgsPlural": "Profile Session Settings",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -1922,21 +1944,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "DataCategoryGroup": {
             "metadataName": "DataCategoryGroup",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "datacategorygroup",
             "hasContent": false,
             "defaultDirectory": "datacategorygroups",
             "nameForMsgs": "Data Category Group",
             "nameForMsgsPlural": "Data Category Groups",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -1945,21 +1967,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "RemoteSiteSetting": {
             "metadataName": "RemoteSiteSetting",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "remoteSite",
             "hasContent": false,
             "defaultDirectory": "remoteSiteSettings",
             "nameForMsgs": "Remote Site Setting",
             "nameForMsgsPlural": "Remote Site Settings",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -1968,21 +1990,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "CspTrustedSite": {
             "metadataName": "CspTrustedSite",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "cspTrustedSite",
             "hasContent": false,
             "defaultDirectory": "cspTrustedSites",
             "nameForMsgs": "Csp Trusted Site",
             "nameForMsgsPlural": "Csp Trusted Sites",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -1991,24 +2013,24 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "MatchingRules": {
             "metadataName": "MatchingRules",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "matchingRule",
             "hasContent": false,
             "defaultDirectory": "matchingRules",
             "nameForMsgs": "Matching Rule",
             "nameForMsgsPlural": "Matching Rules",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "childXmlNames": [
                 "MatchingRule"
             ],
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -2017,21 +2039,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "DuplicateRule": {
             "metadataName": "DuplicateRule",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "duplicateRule",
             "hasContent": false,
             "defaultDirectory": "duplicateRules",
             "nameForMsgs": "Duplicate Rule",
             "nameForMsgsPlural": "Duplicate Rules",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -2040,21 +2062,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "CleanDataService": {
             "metadataName": "CleanDataService",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "cleanDataService",
             "hasContent": false,
             "defaultDirectory": "cleanDataServices",
             "nameForMsgs": "Clean Data Service",
             "nameForMsgsPlural": "Clean Data Services",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -2063,21 +2085,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "AuthProvider": {
             "metadataName": "AuthProvider",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "authprovider",
             "hasContent": false,
             "defaultDirectory": "authproviders",
             "nameForMsgs": "Auth Provider",
             "nameForMsgsPlural": "Auth Providers",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -2086,20 +2108,20 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "WaveTemplateBundle": {
             "metadataName": "WaveTemplateBundle",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "hasContent": false,
             "defaultDirectory": "waveTemplates",
             "nameForMsgs": "Wave Template Bundle",
             "nameForMsgsPlural": "Wave Template Bundles",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -2108,21 +2130,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "WaveApplication": {
             "metadataName": "WaveApplication",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "wapp",
             "hasContent": false,
             "defaultDirectory": "wave",
             "nameForMsgs": "Wave Application",
             "nameForMsgsPlural": "Wave Applications",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -2131,21 +2153,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "WaveDataset": {
             "metadataName": "WaveDataset",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "wds",
             "hasContent": false,
             "defaultDirectory": "wave",
             "nameForMsgs": "Wave Dataset",
             "nameForMsgsPlural": "Wave Datasets",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -2154,21 +2176,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "EclairGeoData": {
             "metadataName": "EclairGeoData",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "geodata",
             "hasContent": true,
             "defaultDirectory": "eclair",
             "nameForMsgs": "Eclair Geo Data",
             "nameForMsgsPlural": "Eclair Geo Datas",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -2177,21 +2199,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "WaveLens": {
             "metadataName": "WaveLens",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "wlens",
             "hasContent": true,
             "defaultDirectory": "wave",
             "nameForMsgs": "Wave Lens",
             "nameForMsgsPlural": "Wave Lenses",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -2200,21 +2222,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "WaveDashboard": {
             "metadataName": "WaveDashboard",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "wdash",
             "hasContent": true,
             "defaultDirectory": "wave",
             "nameForMsgs": "Wave Dashboard",
             "nameForMsgsPlural": "Wave Dashboards",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -2223,21 +2245,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "WaveXmd": {
             "metadataName": "WaveXmd",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "xmd",
             "hasContent": false,
             "defaultDirectory": "wave",
             "nameForMsgs": "Wave Xmd",
             "nameForMsgsPlural": "Wave Xmds",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -2246,21 +2268,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "WaveDataflow": {
             "metadataName": "WaveDataflow",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "wdf",
             "hasContent": true,
             "defaultDirectory": "wave",
             "nameForMsgs": "Wave Dataflow",
             "nameForMsgsPlural": "Wave Dataflows",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -2269,21 +2291,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "WaveRecipe": {
             "metadataName": "WaveRecipe",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "wdpr",
             "hasContent": true,
             "defaultDirectory": "wave",
             "nameForMsgs": "Wave Recipe",
             "nameForMsgsPlural": "Wave Recipes",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -2292,21 +2314,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "CustomSite": {
             "metadataName": "CustomSite",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "site",
             "hasContent": false,
             "defaultDirectory": "sites",
             "nameForMsgs": "Custom Site",
             "nameForMsgsPlural": "Custom Sites",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -2315,21 +2337,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "ChannelLayout": {
             "metadataName": "ChannelLayout",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "channelLayout",
             "hasContent": false,
             "defaultDirectory": "channelLayouts",
             "nameForMsgs": "Channel Layout",
             "nameForMsgsPlural": "Channel Layouts",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -2338,21 +2360,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "ContentAsset": {
             "metadataName": "ContentAsset",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "asset",
             "hasContent": true,
             "defaultDirectory": "contentassets",
             "nameForMsgs": "Content Asset",
             "nameForMsgsPlural": "Content Assets",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -2361,21 +2383,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "MarketingResourceType": {
             "metadataName": "MarketingResourceType",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "marketingResourceType",
             "hasContent": false,
             "defaultDirectory": "marketingResourceType",
             "nameForMsgs": "Marketing Resource Type",
             "nameForMsgsPlural": "Marketing Resource Types",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -2384,25 +2406,25 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "SharingRules": {
             "metadataName": "SharingRules",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "sharingRules",
             "hasContent": false,
             "defaultDirectory": "sharingRules",
             "nameForMsgs": "Sharing Rule",
             "nameForMsgsPlural": "Sharing Rules",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "childXmlNames": [
                 "SharingOwnerRule",
                 "SharingCriteriaRule"
             ],
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": true,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -2411,21 +2433,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": true
         },
         "SharingSet": {
             "metadataName": "SharingSet",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "sharingSet",
             "hasContent": false,
             "defaultDirectory": "sharingSets",
             "nameForMsgs": "Sharing Set",
             "nameForMsgsPlural": "Sharing Sets",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -2434,21 +2456,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "Community": {
             "metadataName": "Community",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "community",
             "hasContent": false,
             "defaultDirectory": "communities",
             "nameForMsgs": "Community",
             "nameForMsgsPlural": "Communitys",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -2457,21 +2479,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "ChatterExtension": {
             "metadataName": "ChatterExtension",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "ChatterExtension",
             "hasContent": false,
             "defaultDirectory": "ChatterExtensions",
             "nameForMsgs": "Chatter Extension",
             "nameForMsgsPlural": "Chatter Extensions",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -2480,21 +2502,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "CallCenter": {
             "metadataName": "CallCenter",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "callCenter",
             "hasContent": false,
             "defaultDirectory": "callCenters",
             "nameForMsgs": "Call Center",
             "nameForMsgsPlural": "Call Centers",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -2503,21 +2525,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "MilestoneType": {
             "metadataName": "MilestoneType",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "milestoneType",
             "hasContent": false,
             "defaultDirectory": "milestoneTypes",
             "nameForMsgs": "Milestone Type",
             "nameForMsgsPlural": "Milestone Types",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -2526,21 +2548,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "EntitlementProcess": {
             "metadataName": "EntitlementProcess",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "entitlementProcess",
             "hasContent": false,
             "defaultDirectory": "entitlementProcesses",
             "nameForMsgs": "Entitlement Process",
             "nameForMsgsPlural": "Entitlement Processes",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -2549,21 +2571,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "EntitlementTemplate": {
             "metadataName": "EntitlementTemplate",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "entitlementTemplate",
             "hasContent": false,
             "defaultDirectory": "entitlementTemplates",
             "nameForMsgs": "Entitlement Template",
             "nameForMsgsPlural": "Entitlement Templates",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -2572,21 +2594,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "CustomNotificationType": {
             "metadataName": "CustomNotificationType",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "notiftype",
             "hasContent": false,
             "defaultDirectory": "notificationtypes",
             "nameForMsgs": "Custom Notification Type",
             "nameForMsgsPlural": "Custom Notification Types",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -2595,21 +2617,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "ConnectedApp": {
             "metadataName": "ConnectedApp",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "connectedApp",
             "hasContent": false,
             "defaultDirectory": "connectedApps",
             "nameForMsgs": "Connected App",
             "nameForMsgsPlural": "Connected Apps",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -2618,21 +2640,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "AppMenu": {
             "metadataName": "AppMenu",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "appMenu",
             "hasContent": false,
             "defaultDirectory": "appMenus",
             "nameForMsgs": "App Menu",
             "nameForMsgsPlural": "App Menus",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -2641,21 +2663,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "DelegateGroup": {
             "metadataName": "DelegateGroup",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "delegateGroup",
             "hasContent": false,
             "defaultDirectory": "delegateGroups",
             "nameForMsgs": "Delegate Group",
             "nameForMsgsPlural": "Delegate Groups",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -2664,21 +2686,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "SiteDotCom": {
             "metadataName": "SiteDotCom",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "site",
             "hasContent": true,
             "defaultDirectory": "siteDotComSites",
             "nameForMsgs": "Site Dot Com",
             "nameForMsgsPlural": "Site Dot Coms",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -2687,21 +2709,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "Network": {
             "metadataName": "Network",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "network",
             "hasContent": false,
             "defaultDirectory": "networks",
             "nameForMsgs": "Network",
             "nameForMsgsPlural": "Networks",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -2710,21 +2732,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "NetworkBranding": {
             "metadataName": "NetworkBranding",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "networkBranding",
             "hasContent": true,
             "defaultDirectory": "networkBranding",
             "nameForMsgs": "Network Branding",
             "nameForMsgsPlural": "Network Brandings",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -2733,21 +2755,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "CustomExperience": {
             "metadataName": "CustomExperience",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "customExperience",
             "hasContent": false,
             "defaultDirectory": "customExperiences",
             "nameForMsgs": "Custom Experience",
             "nameForMsgsPlural": "Custom Experiences",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -2756,21 +2778,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "CommunityThemeDefinition": {
             "metadataName": "CommunityThemeDefinition",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "communityThemeDefinition",
             "hasContent": false,
             "defaultDirectory": "communityThemeDefinitions",
             "nameForMsgs": "Community Theme Definition",
             "nameForMsgsPlural": "Community Theme Definitions",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -2779,21 +2801,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "BrandingSet": {
             "metadataName": "BrandingSet",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "brandingSet",
             "hasContent": false,
             "defaultDirectory": "brandingSets",
             "nameForMsgs": "Branding Set",
             "nameForMsgsPlural": "Branding Sets",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -2802,21 +2824,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "CommunityTemplateDefinition": {
             "metadataName": "CommunityTemplateDefinition",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "communityTemplateDefinition",
             "hasContent": false,
             "defaultDirectory": "communityTemplateDefinitions",
             "nameForMsgs": "Community Template Definition",
             "nameForMsgsPlural": "Community Template Definitions",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -2825,21 +2847,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "ManagedTopics": {
             "metadataName": "ManagedTopics",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "managedTopics",
             "hasContent": false,
             "defaultDirectory": "managedTopics",
             "nameForMsgs": "Managed Topics",
             "nameForMsgsPlural": "Managed Topicses",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -2848,21 +2870,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "KeywordList": {
             "metadataName": "KeywordList",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "keywords",
             "hasContent": false,
             "defaultDirectory": "moderation",
             "nameForMsgs": "Keyword List",
             "nameForMsgsPlural": "Keyword Lists",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -2871,21 +2893,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "UserCriteria": {
             "metadataName": "UserCriteria",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "userCriteria",
             "hasContent": false,
             "defaultDirectory": "userCriteria",
             "nameForMsgs": "User Criteria",
             "nameForMsgsPlural": "User Criterias",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -2894,21 +2916,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "ModerationRule": {
             "metadataName": "ModerationRule",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "rule",
             "hasContent": false,
             "defaultDirectory": "moderation",
             "nameForMsgs": "Moderation Rule",
             "nameForMsgsPlural": "Moderation Rules",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -2917,21 +2939,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "Territory2Type": {
             "metadataName": "Territory2Type",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "territory2Type",
             "hasContent": false,
             "defaultDirectory": "territory2Types",
             "nameForMsgs": "Territory2 Type",
             "nameForMsgsPlural": "Territory2 Types",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -2940,21 +2962,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "Territory2Model": {
             "metadataName": "Territory2Model",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "territory2Model",
             "hasContent": false,
             "defaultDirectory": "territory2Models",
             "nameForMsgs": "Territory2 Model",
             "nameForMsgsPlural": "Territory2 Models",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -2963,21 +2985,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "Territory2Rule": {
             "metadataName": "Territory2Rule",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "territory2Rule",
             "hasContent": false,
             "defaultDirectory": "rules",
             "nameForMsgs": "Territory2 Rule",
             "nameForMsgsPlural": "Territory2 Rules",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -2986,21 +3008,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "Territory2": {
             "metadataName": "Territory2",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "territory2",
             "hasContent": false,
             "defaultDirectory": "territories",
             "nameForMsgs": "Territory2",
             "nameForMsgsPlural": "Territory2s",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -3009,21 +3031,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "CampaignInfluenceModel": {
             "metadataName": "CampaignInfluenceModel",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "campaignInfluenceModel",
             "hasContent": false,
             "defaultDirectory": "campaignInfluenceModels",
             "nameForMsgs": "Campaign Influence Model",
             "nameForMsgsPlural": "Campaign Influence Models",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -3032,21 +3054,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "SamlSsoConfig": {
             "metadataName": "SamlSsoConfig",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "samlssoconfig",
             "hasContent": false,
             "defaultDirectory": "samlssoconfigs",
             "nameForMsgs": "Saml Sso Config",
             "nameForMsgsPlural": "Saml Sso Configs",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -3055,21 +3077,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "DataPipeline": {
             "metadataName": "DataPipeline",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "dataPipeline",
             "hasContent": true,
             "defaultDirectory": "dataPipelines",
             "nameForMsgs": "Data Pipeline",
             "nameForMsgsPlural": "Data Pipelines",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -3078,21 +3100,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "CorsWhitelistOrigin": {
             "metadataName": "CorsWhitelistOrigin",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "corsWhitelistOrigin",
             "hasContent": false,
             "defaultDirectory": "corsWhitelistOrigins",
             "nameForMsgs": "Cors Whitelist Origin",
             "nameForMsgsPlural": "Cors Whitelist Origins",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -3101,21 +3123,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "ActionLinkGroupTemplate": {
             "metadataName": "ActionLinkGroupTemplate",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "actionLinkGroupTemplate",
             "hasContent": false,
             "defaultDirectory": "actionLinkGroupTemplates",
             "nameForMsgs": "Action Link Group Template",
             "nameForMsgsPlural": "Action Link Group Templates",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -3124,21 +3146,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "LicenseDefinition": {
             "metadataName": "LicenseDefinition",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "licenseDefinition",
             "hasContent": false,
             "defaultDirectory": "licenseDefinitions",
             "nameForMsgs": "License Definition",
             "nameForMsgsPlural": "License Definitions",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -3147,21 +3169,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "TransactionSecurityPolicy": {
             "metadataName": "TransactionSecurityPolicy",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "transactionSecurityPolicy",
             "hasContent": false,
             "defaultDirectory": "transactionSecurityPolicies",
             "nameForMsgs": "Transaction Security Policy",
             "nameForMsgsPlural": "Transaction Security Policys",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -3170,21 +3192,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "Skill": {
             "metadataName": "Skill",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "skill",
             "hasContent": false,
             "defaultDirectory": "skills",
             "nameForMsgs": "Skill",
             "nameForMsgsPlural": "Skills",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -3193,21 +3215,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "LiveChatDeployment": {
             "metadataName": "LiveChatDeployment",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "liveChatDeployment",
             "hasContent": false,
             "defaultDirectory": "liveChatDeployments",
             "nameForMsgs": "Live Chat Deployment",
             "nameForMsgsPlural": "Live Chat Deployments",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -3216,21 +3238,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "LiveChatButton": {
             "metadataName": "LiveChatButton",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "liveChatButton",
             "hasContent": false,
             "defaultDirectory": "liveChatButtons",
             "nameForMsgs": "Live Chat Button",
             "nameForMsgsPlural": "Live Chat Buttons",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -3239,21 +3261,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "LiveChatAgentConfig": {
             "metadataName": "LiveChatAgentConfig",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "liveChatAgentConfig",
             "hasContent": false,
             "defaultDirectory": "liveChatAgentConfigs",
             "nameForMsgs": "Live Chat Agent Config",
             "nameForMsgsPlural": "Live Chat Agent Configs",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -3262,21 +3284,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "SynonymDictionary": {
             "metadataName": "SynonymDictionary",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "synonymDictionary",
             "hasContent": false,
             "defaultDirectory": "synonymDictionaries",
             "nameForMsgs": "Synonym Dictionary",
             "nameForMsgsPlural": "Synonym Dictionarys",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -3285,21 +3307,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "XOrgHub": {
             "metadataName": "XOrgHub",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "xorghub",
             "hasContent": false,
             "defaultDirectory": "xorghubs",
             "nameForMsgs": "X Org Hub",
             "nameForMsgsPlural": "X Org Hubs",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -3308,21 +3330,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "PathAssistant": {
             "metadataName": "PathAssistant",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "pathAssistant",
             "hasContent": false,
             "defaultDirectory": "pathAssistants",
             "nameForMsgs": "Path Assistant",
             "nameForMsgsPlural": "Path Assistants",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -3331,21 +3353,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "LeadConvertSettings": {
             "metadataName": "LeadConvertSettings",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "LeadConvertSetting",
             "hasContent": false,
             "defaultDirectory": "LeadConvertSettings",
             "nameForMsgs": "Lead Convert Settings",
             "nameForMsgsPlural": "Lead Convert Settingses",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -3354,21 +3376,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "LiveChatSensitiveDataRule": {
             "metadataName": "LiveChatSensitiveDataRule",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "liveChatSensitiveDataRule",
             "hasContent": false,
             "defaultDirectory": "liveChatSensitiveDataRule",
             "nameForMsgs": "Live Chat Sensitive Data Rule",
             "nameForMsgsPlural": "Live Chat Sensitive Data Rules",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -3377,21 +3399,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "PlatformCachePartition": {
             "metadataName": "PlatformCachePartition",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "cachePartition",
             "hasContent": false,
             "defaultDirectory": "cachePartitions",
             "nameForMsgs": "Platform Cache Partition",
             "nameForMsgsPlural": "Platform Cache Partitions",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -3400,21 +3422,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "AssistantRecommendationType": {
             "metadataName": "AssistantRecommendationType",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "assistantRecommendationType",
             "hasContent": false,
             "defaultDirectory": "assistantRecommendationTypes",
             "nameForMsgs": "Assistant Recommendation Type",
             "nameForMsgsPlural": "Assistant Recommendation Types",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -3423,21 +3445,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "InsightType": {
             "metadataName": "InsightType",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "insightType",
             "hasContent": false,
             "defaultDirectory": "insightTypes",
             "nameForMsgs": "Insight Type",
             "nameForMsgsPlural": "Insight Types",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -3446,21 +3468,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "TopicsForObjects": {
             "metadataName": "TopicsForObjects",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "topicsForObjects",
             "hasContent": false,
             "defaultDirectory": "topicsForObjects",
             "nameForMsgs": "Topics For Objects",
             "nameForMsgsPlural": "Topics For Objectses",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -3469,21 +3491,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "IntegrationHubSettingsType": {
             "metadataName": "IntegrationHubSettingsType",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "type",
             "hasContent": false,
             "defaultDirectory": "integrationHub",
             "nameForMsgs": "Integration Hub Settings Type",
             "nameForMsgsPlural": "Integration Hub Settings Types",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -3492,21 +3514,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "IntegrationHubSettings": {
             "metadataName": "IntegrationHubSettings",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "settings",
             "hasContent": false,
             "defaultDirectory": "integrationHub",
             "nameForMsgs": "Integration Hub Settings",
             "nameForMsgsPlural": "Integration Hub Settingses",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -3515,21 +3537,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "OrchestrationContext": {
             "metadataName": "OrchestrationContext",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "orchestrationContext",
             "hasContent": false,
             "defaultDirectory": "iot",
             "nameForMsgs": "Orchestration Context",
             "nameForMsgsPlural": "Orchestration Contexts",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -3538,21 +3560,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "Orchestration": {
             "metadataName": "Orchestration",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "orchestration",
             "hasContent": true,
             "defaultDirectory": "iot",
             "nameForMsgs": "Orchestration",
             "nameForMsgsPlural": "Orchestrations",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -3561,21 +3583,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "Settings": {
             "metadataName": "Settings",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "settings",
             "hasContent": false,
             "defaultDirectory": "settings",
             "nameForMsgs": "Settings",
             "nameForMsgsPlural": "Settingses",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": true,
             "deleteSupported": false,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -3584,21 +3606,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "FeatureParameterBoolean": {
             "metadataName": "FeatureParameterBoolean",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "featureParameterBoolean",
             "hasContent": false,
             "defaultDirectory": "featureParameters",
             "nameForMsgs": "Feature Parameter Boolean",
             "nameForMsgsPlural": "Feature Parameter Booleans",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -3607,21 +3629,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "FeatureParameterDate": {
             "metadataName": "FeatureParameterDate",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "featureParameterDate",
             "hasContent": false,
             "defaultDirectory": "featureParameters",
             "nameForMsgs": "Feature Parameter Date",
             "nameForMsgsPlural": "Feature Parameter Dates",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -3630,21 +3652,21 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "FeatureParameterInteger": {
             "metadataName": "FeatureParameterInteger",
+            "isAddressable": true,
+            "isSourceTracked": true,
             "ext": "featureParameterInteger",
             "hasContent": false,
             "defaultDirectory": "featureParameters",
             "nameForMsgs": "Feature Parameter Integer",
             "nameForMsgsPlural": "Feature Parameter Integers",
             "contentIsBinary": false,
-            "isAddressable": true,
-            "isSourceTracked": true,
             "hasStandardMembers": false,
             "deleteSupported": true,
-            "hasVirtualSubtypes": false,
             "decompositionConfig": {
                 "strategy": "nonDecomposed",
                 "workspaceStrategy": "nonDecomposed",
@@ -3653,19 +3675,20 @@
                 "useSparseComposition": false,
                 "decompositions": [],
                 "contentStrategy": "nonDecomposedContent"
-            }
+            },
+            "hasVirtualSubtypes": false
         },
         "CustomField": {
             "parent": {
                 "metadataName": "CustomObject",
+                "isAddressable": true,
+                "isSourceTracked": true,
                 "ext": "object",
                 "hasContent": false,
                 "defaultDirectory": "objects",
                 "nameForMsgs": "Custom Object",
                 "nameForMsgsPlural": "Custom Objects",
                 "contentIsBinary": false,
-                "isAddressable": true,
-                "isSourceTracked": true,
                 "childXmlNames": [
                     "CustomField",
                     "Index",
@@ -3680,7 +3703,6 @@
                 ],
                 "hasStandardMembers": true,
                 "deleteSupported": true,
-                "hasVirtualSubtypes": true,
                 "decompositionConfig": {
                     "strategy": "describeMetadata",
                     "workspaceStrategy": "folderPerSubtype",
@@ -3782,7 +3804,8 @@
                             "isAddressable": true
                         }
                     ]
-                }
+                },
+                "hasVirtualSubtypes": true
             },
             "metadataName": "CustomField",
             "defaultDirectory": "fields",
@@ -3798,14 +3821,14 @@
         "Index": {
             "parent": {
                 "metadataName": "CustomObject",
+                "isAddressable": true,
+                "isSourceTracked": true,
                 "ext": "object",
                 "hasContent": false,
                 "defaultDirectory": "objects",
                 "nameForMsgs": "Custom Object",
                 "nameForMsgsPlural": "Custom Objects",
                 "contentIsBinary": false,
-                "isAddressable": true,
-                "isSourceTracked": true,
                 "childXmlNames": [
                     "CustomField",
                     "Index",
@@ -3820,7 +3843,6 @@
                 ],
                 "hasStandardMembers": true,
                 "deleteSupported": true,
-                "hasVirtualSubtypes": true,
                 "decompositionConfig": {
                     "strategy": "describeMetadata",
                     "workspaceStrategy": "folderPerSubtype",
@@ -3922,7 +3944,8 @@
                             "isAddressable": true
                         }
                     ]
-                }
+                },
+                "hasVirtualSubtypes": true
             },
             "metadataName": "Index",
             "defaultDirectory": "indexes",
@@ -3938,14 +3961,14 @@
         "BusinessProcess": {
             "parent": {
                 "metadataName": "CustomObject",
+                "isAddressable": true,
+                "isSourceTracked": true,
                 "ext": "object",
                 "hasContent": false,
                 "defaultDirectory": "objects",
                 "nameForMsgs": "Custom Object",
                 "nameForMsgsPlural": "Custom Objects",
                 "contentIsBinary": false,
-                "isAddressable": true,
-                "isSourceTracked": true,
                 "childXmlNames": [
                     "CustomField",
                     "Index",
@@ -3960,7 +3983,6 @@
                 ],
                 "hasStandardMembers": true,
                 "deleteSupported": true,
-                "hasVirtualSubtypes": true,
                 "decompositionConfig": {
                     "strategy": "describeMetadata",
                     "workspaceStrategy": "folderPerSubtype",
@@ -4062,7 +4084,8 @@
                             "isAddressable": true
                         }
                     ]
-                }
+                },
+                "hasVirtualSubtypes": true
             },
             "metadataName": "BusinessProcess",
             "defaultDirectory": "businessProcesses",
@@ -4078,14 +4101,14 @@
         "CompactLayout": {
             "parent": {
                 "metadataName": "CustomObject",
+                "isAddressable": true,
+                "isSourceTracked": true,
                 "ext": "object",
                 "hasContent": false,
                 "defaultDirectory": "objects",
                 "nameForMsgs": "Custom Object",
                 "nameForMsgsPlural": "Custom Objects",
                 "contentIsBinary": false,
-                "isAddressable": true,
-                "isSourceTracked": true,
                 "childXmlNames": [
                     "CustomField",
                     "Index",
@@ -4100,7 +4123,6 @@
                 ],
                 "hasStandardMembers": true,
                 "deleteSupported": true,
-                "hasVirtualSubtypes": true,
                 "decompositionConfig": {
                     "strategy": "describeMetadata",
                     "workspaceStrategy": "folderPerSubtype",
@@ -4202,7 +4224,8 @@
                             "isAddressable": true
                         }
                     ]
-                }
+                },
+                "hasVirtualSubtypes": true
             },
             "metadataName": "CompactLayout",
             "defaultDirectory": "compactLayouts",
@@ -4218,14 +4241,14 @@
         "RecordType": {
             "parent": {
                 "metadataName": "CustomObject",
+                "isAddressable": true,
+                "isSourceTracked": true,
                 "ext": "object",
                 "hasContent": false,
                 "defaultDirectory": "objects",
                 "nameForMsgs": "Custom Object",
                 "nameForMsgsPlural": "Custom Objects",
                 "contentIsBinary": false,
-                "isAddressable": true,
-                "isSourceTracked": true,
                 "childXmlNames": [
                     "CustomField",
                     "Index",
@@ -4240,7 +4263,6 @@
                 ],
                 "hasStandardMembers": true,
                 "deleteSupported": true,
-                "hasVirtualSubtypes": true,
                 "decompositionConfig": {
                     "strategy": "describeMetadata",
                     "workspaceStrategy": "folderPerSubtype",
@@ -4342,7 +4364,8 @@
                             "isAddressable": true
                         }
                     ]
-                }
+                },
+                "hasVirtualSubtypes": true
             },
             "metadataName": "RecordType",
             "defaultDirectory": "recordTypes",
@@ -4358,14 +4381,14 @@
         "WebLink": {
             "parent": {
                 "metadataName": "CustomObject",
+                "isAddressable": true,
+                "isSourceTracked": true,
                 "ext": "object",
                 "hasContent": false,
                 "defaultDirectory": "objects",
                 "nameForMsgs": "Custom Object",
                 "nameForMsgsPlural": "Custom Objects",
                 "contentIsBinary": false,
-                "isAddressable": true,
-                "isSourceTracked": true,
                 "childXmlNames": [
                     "CustomField",
                     "Index",
@@ -4380,7 +4403,6 @@
                 ],
                 "hasStandardMembers": true,
                 "deleteSupported": true,
-                "hasVirtualSubtypes": true,
                 "decompositionConfig": {
                     "strategy": "describeMetadata",
                     "workspaceStrategy": "folderPerSubtype",
@@ -4482,7 +4504,8 @@
                             "isAddressable": true
                         }
                     ]
-                }
+                },
+                "hasVirtualSubtypes": true
             },
             "metadataName": "WebLink",
             "defaultDirectory": "webLinks",
@@ -4498,14 +4521,14 @@
         "ValidationRule": {
             "parent": {
                 "metadataName": "CustomObject",
+                "isAddressable": true,
+                "isSourceTracked": true,
                 "ext": "object",
                 "hasContent": false,
                 "defaultDirectory": "objects",
                 "nameForMsgs": "Custom Object",
                 "nameForMsgsPlural": "Custom Objects",
                 "contentIsBinary": false,
-                "isAddressable": true,
-                "isSourceTracked": true,
                 "childXmlNames": [
                     "CustomField",
                     "Index",
@@ -4520,7 +4543,6 @@
                 ],
                 "hasStandardMembers": true,
                 "deleteSupported": true,
-                "hasVirtualSubtypes": true,
                 "decompositionConfig": {
                     "strategy": "describeMetadata",
                     "workspaceStrategy": "folderPerSubtype",
@@ -4622,7 +4644,8 @@
                             "isAddressable": true
                         }
                     ]
-                }
+                },
+                "hasVirtualSubtypes": true
             },
             "metadataName": "ValidationRule",
             "defaultDirectory": "validationRules",
@@ -4638,14 +4661,14 @@
         "SharingReason": {
             "parent": {
                 "metadataName": "CustomObject",
+                "isAddressable": true,
+                "isSourceTracked": true,
                 "ext": "object",
                 "hasContent": false,
                 "defaultDirectory": "objects",
                 "nameForMsgs": "Custom Object",
                 "nameForMsgsPlural": "Custom Objects",
                 "contentIsBinary": false,
-                "isAddressable": true,
-                "isSourceTracked": true,
                 "childXmlNames": [
                     "CustomField",
                     "Index",
@@ -4660,7 +4683,6 @@
                 ],
                 "hasStandardMembers": true,
                 "deleteSupported": true,
-                "hasVirtualSubtypes": true,
                 "decompositionConfig": {
                     "strategy": "describeMetadata",
                     "workspaceStrategy": "folderPerSubtype",
@@ -4762,7 +4784,8 @@
                             "isAddressable": true
                         }
                     ]
-                }
+                },
+                "hasVirtualSubtypes": true
             },
             "metadataName": "SharingReason",
             "defaultDirectory": "sharingReasons",
@@ -4778,14 +4801,14 @@
         "ListView": {
             "parent": {
                 "metadataName": "CustomObject",
+                "isAddressable": true,
+                "isSourceTracked": true,
                 "ext": "object",
                 "hasContent": false,
                 "defaultDirectory": "objects",
                 "nameForMsgs": "Custom Object",
                 "nameForMsgsPlural": "Custom Objects",
                 "contentIsBinary": false,
-                "isAddressable": true,
-                "isSourceTracked": true,
                 "childXmlNames": [
                     "CustomField",
                     "Index",
@@ -4800,7 +4823,6 @@
                 ],
                 "hasStandardMembers": true,
                 "deleteSupported": true,
-                "hasVirtualSubtypes": true,
                 "decompositionConfig": {
                     "strategy": "describeMetadata",
                     "workspaceStrategy": "folderPerSubtype",
@@ -4902,7 +4924,8 @@
                             "isAddressable": true
                         }
                     ]
-                }
+                },
+                "hasVirtualSubtypes": true
             },
             "metadataName": "ListView",
             "defaultDirectory": "listViews",
@@ -4918,14 +4941,14 @@
         "FieldSet": {
             "parent": {
                 "metadataName": "CustomObject",
+                "isAddressable": true,
+                "isSourceTracked": true,
                 "ext": "object",
                 "hasContent": false,
                 "defaultDirectory": "objects",
                 "nameForMsgs": "Custom Object",
                 "nameForMsgsPlural": "Custom Objects",
                 "contentIsBinary": false,
-                "isAddressable": true,
-                "isSourceTracked": true,
                 "childXmlNames": [
                     "CustomField",
                     "Index",
@@ -4940,7 +4963,6 @@
                 ],
                 "hasStandardMembers": true,
                 "deleteSupported": true,
-                "hasVirtualSubtypes": true,
                 "decompositionConfig": {
                     "strategy": "describeMetadata",
                     "workspaceStrategy": "folderPerSubtype",
@@ -5042,7 +5064,8 @@
                             "isAddressable": true
                         }
                     ]
-                }
+                },
+                "hasVirtualSubtypes": true
             },
             "metadataName": "FieldSet",
             "defaultDirectory": "fieldSets",
@@ -5058,20 +5081,19 @@
         "CustomFieldTranslation": {
             "parent": {
                 "metadataName": "CustomObjectTranslation",
+                "isAddressable": true,
+                "isSourceTracked": true,
                 "ext": "objectTranslation",
                 "hasContent": false,
                 "defaultDirectory": "objectTranslations",
                 "nameForMsgs": "Custom Object Translation",
                 "nameForMsgsPlural": "Custom Object Translations",
                 "contentIsBinary": false,
-                "isAddressable": true,
-                "isSourceTracked": true,
-                "hasStandardMembers": true,
-                "deleteSupported": true,
                 "childXmlNames": [
                     "CustomFieldTranslation"
                 ],
-                "hasVirtualSubtypes": true,
+                "hasStandardMembers": true,
+                "deleteSupported": true,
                 "decompositionConfig": {
                     "strategy": "describeMetadata",
                     "workspaceStrategy": "folderPerSubtype",
@@ -5092,7 +5114,8 @@
                             "isAddressable": false
                         }
                     ]
-                }
+                },
+                "hasVirtualSubtypes": true
             },
             "metadataName": "CustomFieldTranslation",
             "defaultDirectory": "fields",
@@ -5108,21 +5131,20 @@
         "SharingOwnerRule": {
             "parent": {
                 "metadataName": "SharingRules",
+                "isAddressable": true,
+                "isSourceTracked": true,
                 "ext": "sharingRules",
                 "hasContent": false,
                 "defaultDirectory": "sharingRules",
                 "nameForMsgs": "Sharing Rule",
                 "nameForMsgsPlural": "Sharing Rules",
                 "contentIsBinary": false,
-                "isAddressable": true,
-                "isSourceTracked": true,
                 "childXmlNames": [
                     "SharingOwnerRule",
                     "SharingCriteriaRule"
                 ],
                 "hasStandardMembers": false,
                 "deleteSupported": true,
-                "hasVirtualSubtypes": true,
                 "decompositionConfig": {
                     "strategy": "nonDecomposed",
                     "workspaceStrategy": "nonDecomposed",
@@ -5131,7 +5153,8 @@
                     "useSparseComposition": false,
                     "decompositions": [],
                     "contentStrategy": "nonDecomposedContent"
-                }
+                },
+                "hasVirtualSubtypes": true
             },
             "metadataName": "SharingOwnerRule",
             "defaultDirectory": "sharingOwnerRules",
@@ -5147,21 +5170,20 @@
         "SharingCriteriaRule": {
             "parent": {
                 "metadataName": "SharingRules",
+                "isAddressable": true,
+                "isSourceTracked": true,
                 "ext": "sharingRules",
                 "hasContent": false,
                 "defaultDirectory": "sharingRules",
                 "nameForMsgs": "Sharing Rule",
                 "nameForMsgsPlural": "Sharing Rules",
                 "contentIsBinary": false,
-                "isAddressable": true,
-                "isSourceTracked": true,
                 "childXmlNames": [
                     "SharingOwnerRule",
                     "SharingCriteriaRule"
                 ],
                 "hasStandardMembers": false,
                 "deleteSupported": true,
-                "hasVirtualSubtypes": true,
                 "decompositionConfig": {
                     "strategy": "nonDecomposed",
                     "workspaceStrategy": "nonDecomposed",
@@ -5170,7 +5192,8 @@
                     "useSparseComposition": false,
                     "decompositions": [],
                     "contentStrategy": "nonDecomposedContent"
-                }
+                },
+                "hasVirtualSubtypes": true
             },
             "metadataName": "SharingCriteriaRule",
             "defaultDirectory": "sharingCriteriaRules",
